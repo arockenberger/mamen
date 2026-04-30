@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Atter Et År i Østen</title>
+				<title type="sub">Maskinskrift</title>
+				<author>
+					<persName>
+						<surname>Mamen</surname>
+						<forename>Oscar </forename>
+					</persName>
+				</author>
+				<respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+					<orgName>Universitetet i Oslo Bibliotek</orgName>
+					<resp>
+						<note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+						<note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+						<date type="importDTA">2026-04-20T18:49:46Z</date>
+					</resp>
+				</respStmt>
+				<respStmt>
+					<persName>
+						<surname>Rockenberger</surname>
+						<forename>Annika</forename>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+						<date type="importDTA">2026-04-20T18:49:46Z</date>
+					</resp>
+				</respStmt>
+				<respStmt>
+					<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+					<resp>
+						<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+						<ref target="https://www.bbaw.de"/>
+					</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+			<extent>
+				<measure type="images">212</measure>
+				<measure type="tokens"/>
+				<measure type="types"/>
+				<measure type="characters"/>
+			</extent>
+			<publicationStmt>
+				<publisher xml:id="DTACorpusPublisher">
+					<email>dta@bbaw.de</email>
+					<orgName role="project">Deutsches Textarchiv</orgName>
+					<orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+					<orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+					<address>
+						<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+						<country>Germany</country>
+					</address>
+				</publisher>
+				<pubPlace>Berlin</pubPlace>
+				<date type="publication">2026-04-20T18:49:46Z</date>
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+						<p>Dieses Werk ist gemeinfrei.</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+					<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+						<p>Dieses Werk ist gemeinfrei.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="M"/>
+				<biblFull>
+					<titleStmt>
+						<title level="m" type="main">Atter Et År i Østen</title>
+						<title level="m" type="sub">Maskinskrift</title>
+						<author>
+							<persName>
+								<surname>Mamen</surname>
+								<forename>Oscar </forename>
+							</persName>
+						</author>
+					</titleStmt>
+					<editionStmt>
+						<edition n="1"/>
+					</editionStmt>
+					<publicationStmt>
+						<publisher/>
+						<pubPlace>Kalgan</pubPlace>
+						<date type="publication">1938</date>
+					</publicationStmt>
+				</biblFull>
+				<msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+					<msIdentifier>
+						<repository>Universitetet i Oslo, Kulturhistorisk Museum</repository>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>Verfahren der Texterfassung: OCR mit Nachkorrektur.</p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<pb facs='#facs_2' n='1'/>
+				<fw type="header" place="top">O. Mamen</fw>
+				<div n="1">
+					<head>HJEM IGJEN TIL FJERN-ØSTEN.</head>
+					<p>
+					<lb/><subst><del rendition="ow"></del><add place="across" type="ink">E</add></subst>fter en uhyggelig masse forsinkelser, ophevelser, utsett<subst><del rendition="ow">le</del><add place="across" type="typed">el</add></subst>ser
+					<lb/>plus en rekke andre uforutsette forhindringer, gled da endelig toget
+					<lb/>ut fra <placeName wikiData='Q308313'>Oslo Ø</placeName> en vakker vårafte<subst><del rendition="ow"></del><add place="across" type="typed">n</add></subst>. Det er et vakkert og venligt vink fra
+					<lb/>lannet fjorden like utenfor <placeName>Oslo</placeName> gi<subst><del rendition="ow"></del><add place="across" type="typed">r</add></subst> en slik vårkvell. Og ute ved
+					<lb/><placeName wikiData='Q4881645'>Bekkelaget</placeName> hadde sandelig et kirsebærtre lagt sig til med blomster; det
+					<lb/>var litt for tidligt <del rendition="ow" type="x">egentlig</del> for de første dagene av mai. Tusmørket rak<add place="right" type="pencil">k</add>
+					<lb/>nesten til vi kom til <placeName wikiData='Q109042'>Halden</placeName>. Så gled vi videre over grensen og jeg krøp
+					<lb/>sliten og søvnig tilkøis.
+					</p>
+					<p>
+					<lb/>En liten stunn fik tankerne lov å rumstere. Først dreiet de sig om
+					<lb/>lannet som netop var lagt agterut; på<blackening>x</blackening> alt og alle som var tilbake der.
+					<lb/>Så forsøkte tankerne at granske ut hvorfor nesten alle vi &quot;østlendinger&quot;
+					<lb/>har slik trang til å<hi rend='strikethrough:true;'>t</hi> komme tilbake til det fjerne østen igjen. Man kan
+					<lb/>godt forstå at en stor del av europ<supplied reason='typed over letter &quot;a&quot;'>e</supplied>erne som har levet i Østens havne-
+					<lb/>byer og havt bare gode dage, blir inngrodd i forhollene. Men for mig
+					<lb/>stillet det sig litt forskjelligt. Jeg hadde ikke hatt så mange årene
+					<lb/>i havnebyerne. Mesteparten av de noen-og-tyve <blackening>xx</blackening> bedste år av mit liv
+					<lb/>hadde jeg streifet om i det indre av lannet. Både tørst og sult hadde
+					<lb/>vert forsøkt mere enn en gang, og frosset hadde jeg gjort langt mere
+					<lb/>enn jeg kunne finne anledning til hjemme på høifjellet mittvinters.
+					<lb/>Hvad kunne det da vere som <supplied reason='whitespace added with &quot;&quot; with pencil'>drog tilbake</supplied> mot det samme liv med slik
+					<lb/>uimotstaelig makt ? Tankevirvaret varte bare et par minutter, så
+					<lb/>drog søvnen teppet ned.</p>
+					<p>
+					<lb/>Vi var <supplied reason='typed over letter &quot;i&quot;'>x</supplied> nesten i <placeName wikiData='Q2211' placeName='Malmö'><country>Sweden</country>Malmø</placeName> da øinene spratt neste morgen. Altså her
+					<lb/><supplied reason='superscript/above line insertion'>på vei</supplied>
+					<lb/>var jeg √<note></note> hjemover igjen og hadde tatt den vei jeg minst ønsket med ca.
+					<lb/>fjorten dages jernbane reise. Det var en herlig tur med togfergen fra
+					<lb/><placeName wikiData='Q26943' placeName='Trälleborg'><country>Sweden</country>Trälleborg</placeName> til <placeName wikiData='Q494631' placeName='Sassnitz'><country>Germany</country>Saznitz</placeName>. Den tyske marine serverte med enestående
+					<lb/>skiveskytning på e<supplied reason='typed over letter &quot;n&quot;'>t</supplied> gammelt slagskib som manøvererte i alle retninger
+					<lb/><sic correction='og'>of</sic> kastet ut veldige røkskyer hvori det forsvant etc., og enda var det
+				</p>
+					<pb facs='#facs_3' xml:id='0003_p003.jpg' n='3'/>
+				<p facs='#facs_3_tr_1'>
+					<lb/>MONGOL TRADE<note></note>
+					<lb facs='#facs_3_tr_1_tl_2' n='N002'/>- 2 -
+					<lb facs='#facs_3_tr_1_tl_3' n='N003'/>ikke en levende kjeft ombord i den gamle, flotte skuta. Like før vi
+					<lb facs='#facs_3_tr_1_tl_4' n='N004'/>kom til <placeName>Saznitz</placeName> gled et fullrigget skoleskib ut av havnen. Det er noe
+					<lb facs='#facs_3_tr_1_tl_5' n='N005'/>som gleder en gammel sjømanns <supplied reason='typed over unreadable, perhaps &quot;sinn&quot;'><subst add='xxxx' del='sinn'>xxxx</subst></supplied> hjerte at få<supplied reason='typed over letter &quot;a&quot;'>x</supplied> se en slik skute. Hele
+					<lb facs='#facs_3_tr_1_tl_6' n='N006'/>sjøen er blitt tam og flau siden seilskuterne forsvannt.</p>
+					<p>
+					<lb facs='#facs_3_tr_1_tl_7' n='N007'/>Toget videre til <placeName wikiData='Q64' placeName='Berlin'><country>Germany</country>Berlin</placeName> var overfyllt med folk og bagage; ja baga-
+					<lb facs='#facs_3_tr_1_tl_8' n='N008'/>gen var den verste. Det er ikke lett å forstå hvorfor folk som reiser
+					<lb facs='#facs_3_tr_1_tl_9' n='N009'/>innen Europas grenser sleper med sig slik en masse. Med fjorten dages
+					<lb facs='#facs_3_tr_1_tl_10' n='N010'/>jernbanereise forann mig klarte jeg mig fint med to hånnkuferter hvorav
+					<lb facs='#facs_3_tr_1_tl_11' n='N011'/>en tropehjelm rekviderte en stor del av plass for sig selv, skjønt
+					<lb facs='#facs_3_tr_1_tl_12' n='N012'/>den var stappet full av unnertøi og strømper. Jo mindre bagage man
+					<lb facs='#facs_3_tr_1_tl_13' n='N013'/>kan klare sig med jo lykkeligere er man sålenge reisen varer, i særdel-
+					<lb facs='#facs_3_tr_1_tl_14' n='N014'/>eshet ved grensestationerne. Det er to ting som hører til livets for-
+					<lb facs='#facs_3_tr_1_tl_15' n='N015'/>bannelser i første rekke. Den ene er å vente; den annen er å pakke ut
+					<lb facs='#facs_3_tr_1_tl_16' n='N016'/>o<supplied reason='typed over letter &quot;f&quot;'>g</supplied> inn i kufferter og kister. Det er ingenting jeg har gjort mere av
+					<lb facs='#facs_3_tr_1_tl_17' n='N017'/>i mit liv enn disse to forbannelserne, og det er fremdeles ingenting
+					<lb facs='#facs_3_tr_1_tl_18' n='N018'/>jeg forstaar mig mindre på heller.
+					<lb facs='#facs_3_tr_1_tl_19' n='N019'/>Kom frem til <placeName wikiData='Q64' placeName='Berlin'><country>Germany</country>Berlin</placeName> ved seks-tiden på eftermiddagen og fik god
+					<lb facs='#facs_3_tr_1_tl_20' n='N020'/>anledning til å strekke paa benene <supplied reason='typed over letters &quot;li&quot;'>xx</supplied> da toget ikke gik videre før
+					<lb facs='#facs_3_tr_1_tl_21' n='N021'/>midnat. Et behageligt brudd paa reisen at få<supplied reason='typed over letter &quot;r&quot;'>x</supplied> se litt på gamle tomter
+					<lb facs='#facs_3_tr_1_tl_22' n='N022'/>der igjen. Det blev ikke noe søvn før den polske grense og enda mindre
+					<lb facs='#facs_3_tr_1_tl_23' n='N023'/>siden, thi da begynnte det å dages. Man slipper <sic correction='togskiftet'>togskitet</sic> i <placeName wikiData='Q270' placeName='Warzawa'><country>Poland</country>Varsjava</placeName>
+					<lb facs='#facs_3_tr_1_tl_24' n='N024'/>nu, hvilket jo er en stor fordel. Gjennem <placeName wikiData='Q36'><country>Poland</country>Polen</placeName> leser man til man
+					<lb facs='#facs_3_tr_1_tl_25' n='N025'/>søvner, våkner og leser litt og søvner igjen. Henimot kvellen lannet
+					<lb facs='#facs_3_tr_1_tl_26' n='N026'/>vi omsider på grensestationen i <placeName wikiData='Q159'><country>Russia</country>Rusland</placeName>. Ut med bagagen og inn i en
+					<lb facs='#facs_3_tr_1_tl_27' n='N027'/>stor hall for toll inspektion og passkontrol. Det hele gik svert glatt.
+					<lb facs='#facs_3_tr_1_tl_28' n='N028'/>Jeg la mærke til at noen av de andre pasagerer fik sine foto-aparater
+					<lb facs='#facs_3_tr_1_tl_29' n='N029'/>forseglet og jeg hadde derfor mit aparat ferdig da turen kom til mig.
+					<lb facs='#facs_3_tr_1_tl_30' n='N030'/>På spørgsmålet om jeg hadde film i aparatet eller om jeg hadde noe
+					<lb facs='#facs_3_tr_1_tl_31' n='N031'/>film med mig svarte jeg nei. Det blev da sagt at det ikke var nørven-
+					<lb facs='#facs_3_tr_1_tl_32' n='N032'/>digt å plombere mit aparat, men da dette ikke passet med mine ideer
+				</p>
+				<pb facs='#facs_4' xml:id='0004_p004.jpg' n='4'/>
+				<p facs='#facs_4_tr_1'>
+					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_4_l' n='N002'/>- 3 -
+					<lb facs='#facs_4_tr_1_tl_2' n='N003'/>anmodet jeg om å få aparatet forseglet, hvilket også blev gjort. Den
+					<lb facs='#facs_4_tr_1_tl_3' n='N004'/>enesta av pasagerene som ikke hadde sit aparat plombert når vi kom til
+					<lb facs='#facs_4_tr_1_tl_4' n='N005'/>grensen på den motsatte side av lannet, fik<supplied reason='written over unreadable letter w/ pencil'>k</supplied> også en hel del ubehagelig-
+					<lb facs='#facs_4_tr_1_tl_5' n='N006'/>heter og en film konfiskert, for hvilket fyren kan takke si<subst add='g' del='f'>g</subst> selv ene og
+					<lb facs='#facs_4_tr_1_tl_6' n='N007'/>allene. Ikke mere enn almindelig rot i bagagen. Så bar det ut av hallen
+					<lb facs='#facs_4_tr_1_tl_7' n='N008'/>på den motsatte side og op på det russiske tog som ventet der. Nu hadde
+					<lb facs='#facs_4_tr_1_tl_8' n='N009'/>vi da god plass nok. Flere enn to mann i kupeen kommer det ikke på
+					<lb facs='#facs_4_tr_1_tl_9' n='N010'/>Sibir-ekspressen<note></note>.
+					<lb facs='#facs_4_tr_1_tl_10' n='N011'/>Efter en herlig søvn fik vi såvitt slukt frokosten før vi kom frem
+					<lb facs='#facs_4_tr_1_tl_11' n='N012'/>til <placeName wikiData='Q649' placeName='Moskov'><country>Russia</country>Moskva</placeName>. Her var det også en forandring siden sist idet man slap
+					<lb facs='#facs_4_tr_1_tl_12' n='N013'/>togskiftet. Men da man hadde flere time å vente var det ikke stort
+					<lb facs='#facs_4_tr_1_tl_13' n='N014'/>annet å gjøre enn at gi sig med Intourist&apos;s veiviser<note></note>, slå sig sammen med
+					<lb facs='#facs_4_tr_1_tl_14' n='N015'/>saueflokken og gå &quot;sight-seeing&quot;. Og Moskva kjennte jeg godt fra før,
+					<lb facs='#facs_4_tr_1_tl_15' n='N016'/>så turen runnt byen frisket op mange gamle, gode minner. I programet
+					<lb facs='#facs_4_tr_1_tl_16' n='N017'/>fik vi også en tur på den nye unnergrunnsbanen. Fra en temmelig rotet
+					<lb facs='#facs_4_tr_1_tl_17' n='N018'/>plass kom vi ned i en første klasses vakker unnergrunnsbane. De følgende
+					<lb facs='#facs_4_tr_1_tl_18' n='N019'/>stationer var alle fint dekorerte og behageligt belyste. Det nye vi fik
+					<lb facs='#facs_4_tr_1_tl_19' n='N020'/>se i Moskva var ikke mere interesant enn nytt andre steder verden over,
+					<lb facs='#facs_4_tr_1_tl_20' n='N021'/>eller knapt nok det. Det gamle var likeså interesant nu som det altid
+					<lb facs='#facs_4_tr_1_tl_21' n='N022'/>har vert; men det var liten tid vi fik til å se det over. Ferden avslut-
+					<lb facs='#facs_4_tr_1_tl_22' n='N023'/>tedes på gamle Metropol Hotel<note></note> som jeg denne gang fannt i tip top stann,
+					<lb facs='#facs_4_tr_1_tl_23' n='N024'/>slik som det pleiet å vere i gamle dage, hvilket ikke var tilfellet
+					<lb facs='#facs_4_tr_1_tl_24' n='N025'/>siste gang jeg avla en visit der. Noen postkort blev skrevet, noen
+					<lb facs='#facs_4_tr_1_tl_25' n='N026'/>vodkaer blev drukket og så tok bilerne os tilbake til toget igjen, som
+					<lb facs='#facs_4_tr_1_tl_26' n='N027'/>nu ventet os på en annen station.
+					<lb facs='#facs_4_tr_1_tl_27' n='N028'/>Videre skranglet vi østover mot og gjennem <placeName wikiData='Q5428'>Sibir</placeName>. Veiret slo om i
+					<lb facs='#facs_4_tr_1_tl_28' n='N029'/><placeName wikiData='Q649'>Moskva</placeName> til surt, kollt gråveir og det hollt sig hele tiden til <placeName wikiData='Q30623'>Manchukuo</placeName>.
+					<lb facs='#facs_4_tr_1_tl_29' n='N030'/>Det flate <placeName wikiData='Q5330429'>øst Rusland</placeName> og <placeName wikiData='Q1191358'>vest Sibir</placeName> ser enda mindre tiltalende ut end
+					<lb facs='#facs_4_tr_1_tl_30' n='N031'/>almindelig i slikt veir. Det svakt bølgeformede lannskap, som allerede
+					<lb facs='#facs_4_tr_1_tl_31' n='N032'/>for mange år siden ødelagde alle mine barndomsforestillinger om det
+				</p>
+				<pb facs='#facs_5' xml:id='0005_p005.jpg' n='5'/>
+				<p facs='#facs_5_tr_1'>
+					<lb facs='#facs_5_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_5_tr_1_tl_2' n='N002'/>- 4 -
+					<lb facs='#facs_5_tr_1_tl_3' n='N003'/>stolte <placeName wikiData='Q35600'>Ural</placeName>, grensen mot Asia, har forlengst tapt all interesse for
+					<lb facs='#facs_5_tr_1_tl_4' n='N004'/>mig. På de to steder jeg gjentagende gange har <sic correction='krysset'>krysses</sic> den berømte
+					<lb facs='#facs_5_tr_1_tl_5' n='N005'/>fjellkjede har jeg forgjeves stirret i alle retninger efter noget jeg
+					<lb facs='#facs_5_tr_1_tl_6' n='N006'/>kunne tillate mig at beære med navnet fjell. Men Sibir blir mere intere-
+					<lb facs='#facs_5_tr_1_tl_7' n='N007'/>sant jo lengere man kommer østover. På alle større stationer var vi alle
+					<lb facs='#facs_5_tr_1_tl_8' n='N008'/>som en ute for å strekke på benene og for frisk lu<subst add='f'>f</subst>t, men det var så
+					<lb facs='#facs_5_tr_1_tl_9' n='N009'/>surt og kollt at vi var helt gla da signalet gik for os til at klyve
+					<lb facs='#facs_5_tr_1_tl_10' n='N010'/>ombord i toget igjen.
+					<lb facs='#facs_5_tr_1_tl_11' n='N011'/>På en av stationerne måtte jeg til a gni mig i øinene med den ene
+					<lb facs='#facs_5_tr_1_tl_12' n='N012'/>hånn mens jeg annvennte den annen hånns fingre til å klype mig kraftig
+					<lb facs='#facs_5_tr_1_tl_13' n='N013'/>i låret. Thi der på platformen så jeg g<supplied reason='written over unreadable letter w/ pencil'>j</supplied>enferden av min gamle ven <persName><forename>Jan</forename><surname>Petrovitsch</surname>Jan</persName>
+					<lb facs='#facs_5_tr_1_tl_14' n='N014'/><persName><forename>Jan</forename><surname>Petrovitsch</surname>Petrovitsch</persName>. Den selvsamme Jan som <blackening comment='w/ pencil'>helt</blackening> troverdige kilder hadde rapotert
+					<lb facs='#facs_5_tr_1_tl_15' n='N015'/>helt og fullt ekspedert inn i den annen verden ved hjelp av en ofisiel
+					<lb facs='#facs_5_tr_1_tl_16' n='N016'/>henrettelse. Og selv om henrettelsen fannt sted for syv eller otte år
+					<lb facs='#facs_5_tr_1_tl_17' n='N017'/>s<unclear>i</unclear>den så hollt Jan Petrovitsch fremdeles på med gjengangeri, noe som
+					<lb facs='#facs_5_tr_1_tl_18' n='N018'/>almindelige folk pleier å slutte med efter et år eller to. Jeg har
+					<lb facs='#facs_5_tr_1_tl_19' n='N019'/>aldrig hatt den minnste redsel eller avsky for lik. Jeg synes de er de
+					<lb facs='#facs_5_tr_1_tl_20' n='N020'/><blackening comment='w/ pencil'>er de</blackening> mest omgjengelige folk sålenge de ikke har vert utsatt for sommer-
+					<lb facs='#facs_5_tr_1_tl_21' n='N021'/>varmen i lengere tid; da kan de begynne å bli litt ubehagelige. Til og
+					<lb facs='#facs_5_tr_1_tl_22' n='N022'/>med de verste røvere og banditter har forekommet mig fredelige og ofte
+					<lb facs='#facs_5_tr_1_tl_23' n='N023'/>helt tiltalende efterat de har gjennemgått den prosess som gir dem til-
+					<lb facs='#facs_5_tr_1_tl_24' n='N024'/>latelse til å bære tittelen &quot;lik&quot;. Men når de avdøde begynner å røre på
+					<lb facs='#facs_5_tr_1_tl_25' n='N025'/>sig igjen, da synes jeg de er både urimelige og påtrengende. Hvis de en-
+					<lb facs='#facs_5_tr_1_tl_26' n='N026'/>gang er døde så kan de holle sig hvor de hører hjemme, <supplied reason='typed over letters &quot;og ikke&quot;'>xxxxxxx</supplied> hvor det
+					<lb facs='#facs_5_tr_1_tl_27' n='N027'/>så enn må vere, og ikke renne runnt her og drive konkurance med de av
+					<lb facs='#facs_5_tr_1_tl_28' n='N028'/>os som er tvunget til kamp og slit for videre eksistens. Det ergret mig
+					<lb facs='#facs_5_tr_1_tl_29' n='N029'/>derfor ikke så lite da jeg opdaget min venn Jan Petrovitsch i pasiar med
+					<lb facs='#facs_5_tr_1_tl_30' n='N030'/>tre - fire andre personer. Hvis ikke de andre var gjengangere også
+					<lb facs='#facs_5_tr_1_tl_31' n='N031'/>så var det en skam at Jan skulle stå slik og sludre med dem mitt på
+					<lb facs='#facs_5_tr_1_tl_32' n='N032'/>blanke dagen, ja mitt i arbeidstiden! Jeg må<hi rend='strikethrough:true;'>a</hi>tte ha greie på hvordan
+				</p>
+				<pb facs='#facs_6' xml:id='0006_p006.jpg' n='6'/>
+				<p facs='#facs_6_tr_1'>
+					<lb facs='#facs_6_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_6_l' n='N002'/>- 5 -
+					<lb facs='#facs_6_tr_1_tl_2' n='N003'/>dette her hang sammen, så jeg gik op bak ryggen på ham og nevnte hans
+					<lb facs='#facs_6_tr_1_tl_3' n='N004'/>navn. Kvikk, som han altid pleiet å vere, svang han sig runnt. Det samme
+					<lb facs='#facs_6_tr_1_tl_4' n='N005'/>godslige smilet, den samme kraftige neven slo tak i min, alt var det
+					<lb facs='#facs_6_tr_1_tl_5' n='N006'/>samme som før, kanhenne noen flere grå hår pa skolten, men det hadde jeg
+					<lb facs='#facs_6_tr_1_tl_6' n='N007'/>også. Han hadde det ganske bra, sa han, spurgte mig efter noen felles
+					<lb facs='#facs_6_tr_1_tl_7' n='N008'/>venner og så klemte vi hinannen kraftig i hånnen <supplied reason='typed over letter &quot;l&quot;'>x</supplied>i det øieblikk jeg
+					<lb facs='#facs_6_tr_1_tl_8' n='N009'/>måtte hoppe pa toget igjen.
+					<lb facs='#facs_6_tr_1_tl_9' n='N010'/>Fik turen runnt <geogName wikiData='Q5513' type='lake'>Baikal sjøen</geogName> på dagen og det er jo et villt lannskap
+					<lb facs='#facs_6_tr_1_tl_10' n='N011'/>der som man aldrig trettes av. Det er dobbeltsporet bane hele veien
+					<lb facs='#facs_6_tr_1_tl_11' n='N012'/>runnt sydennen av sjøen, gjennem mere enn halvt hundrede tuneller.
+					<lb facs='#facs_6_tr_1_tl_12' n='N013'/>Sjøen var ennu islagt med noen åpne flekker her og der i nerheten av
+					<lb facs='#facs_6_tr_1_tl_13' n='N014'/>lann. På enkelte steder var isen svert opmases som om der hadde vert
+					<lb facs='#facs_6_tr_1_tl_14' n='N015'/>sjøgang. Hist og her drev noen folk på å fiske fra isen. De hadde våget
+					<lb facs='#facs_6_tr_1_tl_15' n='N016'/>sig langt ut og isen så<supplied reason='typed over unreadable letter'>x</supplied> ikke noe <sic correction='pålitelig'>palitelig</sic> ut. Isfiskere er våghalser
+					<lb facs='#facs_6_tr_1_tl_16' n='N017'/>hele verden over.
+					<lb facs='#facs_6_tr_1_tl_17' n='N018'/>Gamle, goe <placeName wikiData='Q6816' placeName='Ulan-Ude'><country>Russia</country>Verkhneudinsk</placeName>, hvor jeg så mangen en gang har gått av
+					<lb facs='#facs_6_tr_1_tl_18' n='N019'/>eller på toget på vei til eller fra <placeName wikiData='Q711'>Mongolia</placeName>, var blitt omdøbt siden
+					<lb facs='#facs_6_tr_1_tl_19' n='N020'/>sist. Det er hovedstaden i <placeName wikiData='Q6809'>Buriaternes republik</placeName>, <placeName wikiData='Q6838'>Zabaikalia</placeName>, så det er
+					<lb facs='#facs_6_tr_1_tl_20' n='N021'/>jo rimeligt at det nu lyder et Mongolsk navn og heter <placeName wikiData='Q6816'>Ulan Ut</placeName>, hvilked
+					<lb facs='#facs_6_tr_1_tl_21' n='N022'/>mere passende kunne vert skrevet Olang Ut, som betyr den Røde Port.
+					<lb facs='#facs_6_tr_1_tl_22' n='N023'/>Noen kjennte fjes så jeg av og til på stationerne østenfor <placeName wikiData='Q5513'>Baikal</placeName>, men
+					<lb facs='#facs_6_tr_1_tl_23' n='N024'/>langt ferre enn det før pleiet vere, og det blev liten anledning til å
+					<lb facs='#facs_6_tr_1_tl_24' n='N025'/>snakke med nogen av dem.
+					<lb facs='#facs_6_tr_1_tl_25' n='N026'/>Togvrak så vi av og til hele veien fra <placeName wikiData='Q649'>Moskva</placeName> til <placeName wikiData='Q30623'>Manchukuo</placeName>. Jo
+					<lb facs='#facs_6_tr_1_tl_26' n='N027'/>lengere vi kom østover dets tettere blev det mellem vrakene. Noen av dem
+					<lb facs='#facs_6_tr_1_tl_27' n='N028'/>så helt uhyggelige ut. Hvis de var resultatet av atentater så må det
+					<lb facs='#facs_6_tr_1_tl_28' n='N029'/>ennu finnes en hel del folk i <placeName wikiData='Q159'>Rusland</placeName> som trenger til at bli satt op
+					<lb facs='#facs_6_tr_1_tl_29' n='N030'/>mot en vegg og peppret med rifleprojektiler. Det manglet heller ikke på
+					<lb facs='#facs_6_tr_1_tl_30' n='N031'/>fangetransporter gjennem Sibir<supplied reason='typed over &quot;ien&quot; or something like it'>xxx</supplied>, og noen av dem hadde stått så lenge
+					<lb facs='#facs_6_tr_1_tl_31' n='N032'/>på samme sted at latrinehaugene unner vognene var vokset til anselige
+				</p>
+				<pb facs='#facs_7' xml:id='0007_p007.jpg' n='7'/>
+				<p facs='#facs_7_tr_1'>
+					<lb facs='#facs_7_tr_1_tl_2' n='N001'/>O. Mamen.
+					<lb facs='#facs_7_tr_1_tl_1' n='N002'/>- 6 -
+					<lb facs='#facs_7_tr_1_tl_3' n='N003'/>høider. En dag i spisevognen sat en russer og protesterte ivrigt mot
+					<lb facs='#facs_7_tr_1_tl_4' n='N004'/>hvad en av pasagerene mente, at det var konsentrationsleire og tvunget
+					<lb facs='#facs_7_tr_1_tl_5' n='N005'/>arbeide i Rusland. &quot;Hvad et da det?&quot; sa en annen pasager og pekte ut av
+					<lb facs='#facs_7_tr_1_tl_6' n='N006'/>vinduet hvor en flokk arbeidere var vel bevoktet av soldater på alle
+					<lb facs='#facs_7_tr_1_tl_7' n='N007'/>kanter. Det var ikke det eneste tilfellet som blev observert fra toget
+					<lb facs='#facs_7_tr_1_tl_8' n='N008'/>heller. Det har altid vert tiggere nok langs med jernbanen og det er
+					<lb facs='#facs_7_tr_1_tl_9' n='N009'/>ikke noe bedre nu i den retning. På de større stationer forsøkte man
+					<lb facs='#facs_7_tr_1_tl_10' n='N010'/>å få de vekk så passagerene pa ekspressen ikke skulle se dem; men det
+					<lb facs='#facs_7_tr_1_tl_11' n='N011'/>nyttet lite, de krøp frem unner vognene og overalt, barbente og klett i
+					<lb facs='#facs_7_tr_1_tl_12' n='N012'/>noen elendige filler gik de der og hutret og frøs.
+					<lb facs='#facs_7_tr_1_tl_13' n='N013'/>Men i andre retninger er der gjort store fremskritt, ialle fall
+					<lb facs='#facs_7_tr_1_tl_14' n='N014'/>tilsynelatende. Nesten over alt så vi mengder av traktorer i arbeide på
+					<lb facs='#facs_7_tr_1_tl_15' n='N015'/>jorden. Det så ut som den gammeldagse bonde og hans hest ikke eksisterte
+					<lb facs='#facs_7_tr_1_tl_16' n='N016'/>lengere.
+					<lb facs='#facs_7_tr_1_tl_17' n='N017'/>På den <placeName>siste station i Sibir</placeName>, like ved grensen av Manchukuo, blev
+					<lb facs='#facs_7_tr_1_tl_18' n='N018'/>all vor bagage brakt inn i en hall og inspisert igjen. Penger blev chechet
+					<lb facs='#facs_7_tr_1_tl_19' n='N019'/>op, pass blev kontrolerte og blyplomberne blev tatt av alle vore foto-
+					<lb facs='#facs_7_tr_1_tl_20' n='N020'/>aparater. Alt gikk fort og greit her også, men vi hadde en velsignelse
+					<lb facs='#facs_7_tr_1_tl_21' n='N021'/>av tid og de slap os ikke over grensen <sic correction='før'>for</sic> det blev mørkt. Et steder ute
+					<lb facs='#facs_7_tr_1_tl_22' n='N022'/>i mørket stanset toget et øieblik og endel Manchukuo <sic correction='tjenestemenn'>tjenestemnn</sic> kløv
+					<lb facs='#facs_7_tr_1_tl_23' n='N023'/>ombord til os. De samlet op alle vore pass.
+					<lb facs='#facs_7_tr_1_tl_24' n='N024'/>Klokker var omtrent eleve om aftenen da vi gled in <sic correction='på'>pa</sic> platformen
+					<lb facs='#facs_7_tr_1_tl_25' n='N025'/>i <placeName><country>Manchukuo</country>Manchili</placeName>. Tjenestemennene forsvannt med vore pass og straks <sic correction='efter'>efetr</sic>
+					<lb facs='#facs_7_tr_1_tl_26' n='N026'/><supplied reason='hyphen added to delete whitespace'>for-svannt</supplied> de uniformerte kineserkulier med vor bagage. Inne i den samme
+					<lb facs='#facs_7_tr_1_tl_27' n='N027'/>store inspektionshall blev bagagen gjennemgravet av tollerne. Alle foto-
+					<lb facs='#facs_7_tr_1_tl_28' n='N028'/>aparater blev atter forsvarligt plomberte. Så bar det op i annen etage
+					<lb facs='#facs_7_tr_1_tl_29' n='N029'/>på et kontor hvor vi efter hvert fik tilbake passene. I en luke vekslet
+					<lb facs='#facs_7_tr_1_tl_30' n='N030'/>vi penger, og så fordrev vi resten av tiden med å spise og drikke i
+					<lb facs='#facs_7_tr_1_tl_31' n='N031'/><sic correction='remove'>i</sic> restauranten. Det var lett å se at de nye herrer hadde satt sving på
+					<lb facs='#facs_7_tr_1_tl_32' n='N032'/>alt muligt. Re<supplied reason='typed over letters &quot;ts&quot;'>st</supplied>auranten var så ren og oppusse<supplied reason='typed over letter &quot;s&quot;'>t</supplied> som den sikkert ikke var
+				</p>
+				<pb facs='#facs_8' xml:id='0008_p008.jpg' n='8'/>
+				<p facs='#facs_8_tr_1'>
+					<lb facs='#facs_8_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_8_l' n='N002'/>- 7 -
+					<lb facs='#facs_8_tr_1_tl_2' n='N003'/>da den var ny engang. Kineserboyerne var langt mere dreserte enn de
+					<lb facs='#facs_8_tr_1_tl_3' n='N004'/>pleiet å vere her i gamle dage.
+					<lb facs='#facs_8_tr_1_tl_4' n='N005'/>Det smakte godt at fa krype tilkøis på det japanske tog ve<supplied reason='written over w/ pencil over letter &quot;n&quot;'>d</supplied> fire-
+					<lb facs='#facs_8_tr_1_tl_5' n='N006'/>tiden om morgenen. Men jeg ergret mig over min alt for gode <sic correction='søvn'>søvh</sic> da jeg
+					<lb facs='#facs_8_tr_1_tl_6' n='N007'/>omsider våknet, thi da var vi allerede forbi enkelte stationer hvor
+					<lb facs='#facs_8_tr_1_tl_7' n='N008'/>sikkert nok gamle kjenninger var troppet op for å hilse pa mig. Jeg
+					<lb facs='#facs_8_tr_1_tl_8' n='N009'/>følte jeg var hjemme igjen nu,<sic correction='delete'>,</sic> jeg kjennte alle detaljer i <sic correction='lannskapet'>lannsla pet</sic>
+					<lb facs='#facs_8_tr_1_tl_9' n='N010'/>heromkring. I disse egne hadde jeg flakket omkring med bil, på heste-
+					<lb facs='#facs_8_tr_1_tl_10' n='N011'/>ryggen, med vogn og delvis tilfots. Det var som jeg forsøkte at ete op
+					<lb facs='#facs_8_tr_1_tl_11' n='N012'/>hele lannskapet nedover til vi var igjennem <placeName wikiData='Q293713'>Hingan tunellen</placeName> og ute av
+					<lb facs='#facs_8_tr_1_tl_12' n='N013'/>passet på nedsiden.
+					<lb facs='#facs_8_tr_1_tl_13' n='N014'/>Temmelig tidligt neste morgen kom vi <supplied reason='whitespace marked with &quot;&quot;'>inn til</supplied> <placeName wikiData='Q42956'>Harbin</placeName>. Det blev like-
+					<lb facs='#facs_8_tr_1_tl_14' n='N015'/>som konkurance blannt flere om at komme til og få hilse på mig da jeg
+					<lb facs='#facs_8_tr_1_tl_15' n='N016'/>hoppet ned på platformen. En gammel kjennt <sic correction='russisk'>russiak</sic> hotelportier fik
+					<lb facs='#facs_8_tr_1_tl_16' n='N017'/>både min bagage og mine biletter, så var det bare for mig å sette mig
+					<lb facs='#facs_8_tr_1_tl_17' n='N018'/>inn på anvist plass når det skulle bere videre igjen. Imidlertid drog
+					<lb facs='#facs_8_tr_1_tl_18' n='N019'/>mine venner mig op i byen hvor en kraftig frokost var det første jeg
+					<lb facs='#facs_8_tr_1_tl_19' n='N020'/>fikk tillivs. Stadig prat i tre timer var ikke på langt ner nok. De hadde
+					<lb facs='#facs_8_tr_1_tl_20' n='N021'/>formeget å fortelle og jeg hadde formeget å spørre om. Jo, her lå <supplied reason='typed over letters &quot;sikker&quot;; traces of &quot;t&quot; in the outer margin'>xxxxxx</supplied>
+					<lb facs='#facs_8_tr_1_tl_21' n='N022'/>sikkert nok grunnstenen til &quot;Østens Kalden&quot;. Intereserne lå tykt overalt
+					<lb facs='#facs_8_tr_1_tl_22' n='N023'/>her. Jeg var atter sammen med folk jeg virkelig kunne snakke med. Hjemme
+					<lb facs='#facs_8_tr_1_tl_23' n='N024'/>var det likesom man måtte tvinge en konversation igang med en pjolter;
+					<lb facs='#facs_8_tr_1_tl_24' n='N025'/>her hadde vi så mye <sic correction='å'>a</sic> snakke om at vi glemte rent pjolteren. Det var
+					<lb facs='#facs_8_tr_1_tl_25' n='N026'/>såvitt vi ikke alle glemte togtiden også. Da vi omsider klemte hinannen
+					<lb facs='#facs_8_tr_1_tl_26' n='N027'/>i neverne pa <sic correction='platformen'>plåtformen</sic>, forstod jeg hvad &quot;Østens Kalden&quot; var for noget.
+					<lb facs='#facs_8_tr_1_tl_27' n='N028'/>Jeg kom til a tenke pa en sviptur jeg hadde til <placeName wikiData='Q1754' placeName='Stockholm'><country>Sweden</country>Stockholm</placeName> hvor jeg
+					<lb facs='#facs_8_tr_1_tl_28' n='N029'/>traff en venn fra Østen og vi sat og snakket hele natten til lyse
+					<lb facs='#facs_8_tr_1_tl_29' n='N030'/>morgen og det var savitt vi hadde tid til at tømme en pjolter i nattens
+					<lb facs='#facs_8_tr_1_tl_30' n='N031'/>løp. Den gang måtte Østen ha ka<supplied reason='typed over letter &quot;d&quot;'>l</supplied>lt på os.
+					<lb facs='#facs_8_tr_1_tl_31' n='N032'/>Toget videre var ikke så lite av en oplevelse. Japanerne hadde satt
+				</p>
+				<pb facs='#facs_9' xml:id='0009_p009.jpg' n='9'/>
+				<p facs='#facs_9_tr_1'>
+					<lb facs='#facs_9_tr_1_tl_1' n='N001'/>O. Mamen
+					<lb facs='#facs_9_tr_1_tl_2' n='N002'/>- 8 -
+					<lb facs='#facs_9_tr_1_tl_3' n='N003'/>inn et luksustog mellem <placeName wikiData='Q42956'>Harbin</placeName> og <placeName wikiData='Q46451365'>Dairen</placeName>, &quot;The Asia Express<note></note>&quot;, Strømlin-
+					<lb facs='#facs_9_tr_1_tl_4' n='N004'/>jet fra lokomotivet til observationsvognen i den annen ende av toget,
+					<lb facs='#facs_9_tr_1_tl_5' n='N005'/>og serdeles elegant innredt og utstyrt var det hele. For første gang
+					<lb facs='#facs_9_tr_1_tl_6' n='N006'/>oplevet jeg å få pasere gamle <sic correction='Changchun'><supplied reason='above line insertion of letter &quot;g&quot; w/ pencil'><placeName wikiData='Q92161'>Chanchun</placeName></supplied></sic>, det nuverende <placeName wikiData='Q92161'>Hsinching</placeName>,
+					<lb facs='#facs_9_tr_1_tl_7' n='N007'/>uten a bytte tog, thi hele banen i <placeName wikiData='Q30623'>Manchukuo</placeName> blev omlagt til normal
+					<lb facs='#facs_9_tr_1_tl_8' n='N008'/>sporbredde <sic correction='efter'>efeter</sic> Japanerne to<supplied reason='corrected in line typed letter &quot;g&quot; w/ pencil'>k</supplied> over. Med helt utrolig fart for vi nu
+					<lb facs='#facs_9_tr_1_tl_9' n='N009'/>avsted på dette luksustog og kom til <placeName wikiData='Q11720'>Mukden</placeName> tidligt samme dags ef<supplied reason='typed over letters &quot;et&quot;'>te</supplied>rmid
+					<lb facs='#facs_9_tr_1_tl_10' n='N010'/>dag. De seks timers ventetid vi fik i <placeName wikiData='Q11720'>Mukden</placeName> blev vel anbragt sammen
+					<lb facs='#facs_9_tr_1_tl_11' n='N011'/>med gamle venner.
+					<lb facs='#facs_9_tr_1_tl_12' n='N012'/>Neste dag gik jeg av toget i <placeName wikiData='Q11736'>Tientsin</placeName> for å bli omringet av kine-
+					<lb facs='#facs_9_tr_1_tl_13' n='N013'/>siske hotelportnere som for en gangs skyll var like så ivrige efter å
+					<lb facs='#facs_9_tr_1_tl_14' n='N014'/>spørre om mig og mine som<unclear>x</unclear> de var efter at få slept ut min bagage.
+					<lb facs='#facs_9_tr_1_tl_15' n='N015'/>En uhyggelig portion av gamle venner hadde gått <sic correction='hinsides'>hinsided</sic> i de årene
+					<lb facs='#facs_9_tr_1_tl_16' n='N016'/>jeg hadde vert hjemme, eller rettere sagt de årene jeg hadde vert
+					<lb facs='#facs_9_tr_1_tl_17' n='N017'/>borte, men det var mere enn nok tilbake til å ønske en velkommen.
+					<lb facs='#facs_9_tr_1_tl_18' n='N018'/>Det var ikke mange skrittene en fik gå nedover gaten før man blev
+					<lb facs='#facs_9_tr_1_tl_19' n='N019'/>anropt. Det var en velsigne<supplied reason='typed over letter &quot;n&quot;'>l</supplied>se av kinesere som så ut som om de var
+					<lb facs='#facs_9_tr_1_tl_20' n='N020'/><sic correction='hjertensgla'><supplied reason='above line inserted letter &quot;s&quot;'>hjertengla</supplied></sic> over å se en igjen; alt muligt fra skreddere, skomakere,
+					<lb facs='#facs_9_tr_1_tl_21' n='N021'/>butikfolk, rickshaw-coolier, boyer og barnepiker. Alle hadde et ven-
+					<lb facs='#facs_9_tr_1_tl_22' n='N022'/>ligt ord, en slags velkomsthilsen på deres egen måte. Men når man
+					<lb facs='#facs_9_tr_1_tl_23' n='N023'/>plutselig får en flathånnsklask mellem skullerbladene så man holler
+					<lb facs='#facs_9_tr_1_tl_24' n='N024'/><sic correction='på'>pa</sic> å svelge tungen, og hatten fy<supplied reason='written over unreadable letters w/ pencil'>ker</supplied> høit tilveirs fra skolten, og man
+					<lb facs='#facs_9_tr_1_tl_25' n='N025'/>samtidig hører en velkjennt stemme synge ut: &quot;Hello, you darn old
+					<lb facs='#facs_9_tr_1_tl_26' n='N026'/>son of a gun,&quot; ja da vet man at man er hjemme, og da forstår man
+					<lb facs='#facs_9_tr_1_tl_27' n='N027'/>&quot;Østens Kalden&quot; litt bedre.
+					<lb facs='#facs_9_tr_1_tl_28' n='N028'/>Engelske og amerikanske venner gav mig en livlig <date when='1937-05-17'><name type='holiday'>17de mai</name></date> i
+					<lb facs='#facs_9_tr_1_tl_29' n='N029'/><placeName wikiData='Q11736'>Tientsin</placeName>. Jeg retererte først av følgerne neste aften da jeg hadde
+					<lb facs='#facs_9_tr_1_tl_30' n='N030'/>dinner unner åpen himmel på en av de herlige gårdsplasser i <placeName wikiData='Q956'>Peking</placeName>.
+					<lb facs='#facs_9_tr_1_tl_31' n='N031'/>Ja <placeName wikiData='Q956'>Peking</placeName> var like vakkert og tiltalende som altid. Den samme godslige
+					<lb facs='#facs_9_tr_1_tl_32' n='N032'/>atmosfere blannt europeerne som altid. Jeg fik bare h<supplied reason='written over letter &quot;o&quot; w/ pencil'>i</supplied>lst på et
+				</p>
+				<pb facs='#facs_10' xml:id='0010_p010.jpg' n='10'/>
+				<p facs='#facs_10_tr_1'>
+					<lb facs='#facs_10_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_10_l' n='N002'/>- 9 -
+					<lb facs='#facs_10_tr_1_tl_2' n='N003'/>fåtal av venner i <placeName wikiData='Q956'>Peking</placeName>, jeg måtte videre med morgentoget neste dag.
+					<lb facs='#facs_10_tr_1_tl_3' n='N004'/>En syv timers jernbanereise op til <placeName wikiData='Q58650'>Kalgan</placeName> gik over velkjennte
+					<lb facs='#facs_10_tr_1_tl_4' n='N005'/>marker. Det var som jeg kjennte hver top og kløft i de ville fjellene
+					<lb facs='#facs_10_tr_1_tl_5' n='N006'/>i <geogName>Nankow passet</geogName> og videre opover. Og det var ikke lett å forstå at en
+					<lb facs='#facs_10_tr_1_tl_6' n='N007'/>hadde vert borte så leng<subst add=',' del='semicolon'>,</subst> en fik følelsen av at man slet ikke hadde
+					<lb facs='#facs_10_tr_1_tl_7' n='N008'/>vert borte i det hele tatt.
+					<lb facs='#facs_10_tr_1_tl_8' n='N009'/>Gateutvidelser, nybygg og mange andre forandringer hadde funnet sted
+					<lb facs='#facs_10_tr_1_tl_9' n='N010'/>i <placeName wikiData='Q11736'>Tientsin</placeName>, og det gamle inntrykk av centrum var delvis forandret. Sam-
+					<lb facs='#facs_10_tr_1_tl_10' n='N011'/>tidig hadde byen, spesielt den engelske <subst add='c' del='k'>c</subst>oncessio<subst add='n'>n</subst>, vokset utover i det
+					<lb facs='#facs_10_l_1' n='N012'/>var<note></note>
+					<lb facs='#facs_10_tr_1_tl_11' n='N013'/>uendelige. Hvor der for noen år side<supplied reason='written with pencil'>n</supplied> <unclear><hi rend='strikethrough:true;'>was</hi></unclear> et øde sumplann var der nu en
+					<lb facs='#facs_10_tr_1_tl_12' n='N014'/>flot by med vakkre beplantninger. <placeName wikiData='Q956'>Peking</placeName> derimot var den samme, gamle
+					<lb facs='#facs_10_tr_1_tl_13' n='N015'/>byen som den altid bør fortsette me<subst add='d' del='n'>d</subst> å vere. Gaterne der har altid vert
+					<lb facs='#facs_10_tr_1_tl_14' n='N016'/>brede <sic correction='og'>of</sic> rette og at man som den eneste forbedring har fått asfaltert
+					<lb facs='#facs_10_tr_1_tl_15' n='N017'/>dem er en forbedring som har fordrevet støv i tørre perioder og søle i
+					<lb facs='#facs_10_tr_1_tl_16' n='N018'/>regnperioderne, uten at ha forandret noe ved selve byens urseende.
+					<lb facs='#facs_10_tr_1_tl_17' n='N019'/>Og <placeName wikiData='Q58650'>Kalgan</placeName> var den samme gamle byen som altid. Veibane<unclear>nxx</unclear> i gaterne
+					<lb facs='#facs_10_tr_1_tl_18' n='N020'/>var blitt forbedret, det la man mærke til med en gang, men det forandret
+					<lb facs='#facs_10_tr_1_tl_19' n='N021'/>ikke byens utseende. Fredelig og smilende har <placeName wikiData='Q58650'>Kalgan</placeName> altid fårekommet
+					<lb facs='#facs_10_tr_1_tl_20' n='N022'/>mig der den <unclear alternative='ligget'>xxxxxx</unclear> likesom ligger og koser sig op mot fjellveggene. Thi
+					<lb facs='#facs_10_tr_1_tl_21' n='N023'/>byen er omringet av høie fjell <sic correction='på'>pa</sic> tre kanter; bare mot syd åpner elvedal-
+					<lb facs='#facs_10_tr_1_tl_22' n='N024'/>en sig til en stor fruktbar slet. Lang<hi rend='strikethrough:true;'>a</hi>s de mange vanningskanaler som
+					<lb facs='#facs_10_tr_1_tl_23' n='N025'/>fører runnt markene på denne sletten vokser der høie trer, så på litt
+					<lb facs='#facs_10_tr_1_tl_24' n='N026'/>avstand ser det ut som om sletten var en eneste stor skog av løvtrer.
+					<lb facs='#facs_10_tr_1_tl_25' n='N027'/>Men til og med i syd tårner fjell op på ikke så lang avstann. Det er en
+					<lb facs='#facs_10_tr_1_tl_26' n='N028'/>forhollsvis smal<unclear>x</unclear> dal som elven og jernbanen snor sig igjennem mot
+					<lb facs='#facs_10_tr_1_tl_27' n='N029'/><geogName>Nankow passet</geogName> og <placeName wikiData='Q956'>Peking</placeName> mot syd-øst, og det er et litt bredere dalføre
+					<lb facs='#facs_10_tr_1_tl_28' n='N030'/>mot vest hvor jernbanen fortsetter til <placeName wikiData='Q1151036'>Suiyuan</placeName> og <placeName placeName='Hsipaotou'><country>China</country>Hsipaotou</placeName> ved den
+					<lb facs='#facs_10_tr_1_tl_29' n='N031'/><geogName>Gule Flod</geogName>. På østkanten <unclear>xxxxxxx</unclear> er det ikke så lite plass for byen at
+					<lb facs='#facs_10_tr_1_tl_30' n='N032'/>vokse på; på vestkanten er den krøpet langt nermere op mot fjellene. Og
+					<lb facs='#facs_10_tr_1_tl_31' n='N033'/>op mot nord g<sic correction='å'>a</sic>r byen butt i fjellveggen, trenger sig mellem denne og
+				</p>
+				<pb facs='#facs_11' xml:id='0011_p011.jpg' n='11'/>
+				<p facs='#facs_11_tr_1'>
+					<lb facs='#facs_11_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_11_tr_1_tl_2' n='N002'/>- 10 -
+					<lb facs='#facs_11_tr_1_tl_3' n='N003'/>elven op mot den trange dal som danner den nedre del til det gamle
+					<lb facs='#facs_11_tr_1_tl_4' n='N004'/><geogName>Hanor pass</geogName> der leder op til <placeName wikiData='Q711'>Mongolia</placeName>. <name type='cultural heritage site, landmark'>Den gamle kinesiske mur</name> går
+					<lb facs='#facs_11_tr_1_tl_5' n='N005'/>fra fjellryggene ned i passet hvor den gamle port, <name type='gate'>Ta Ching Men</name>, stenger
+					<lb facs='#facs_11_tr_1_tl_6' n='N006'/>eller leder dire<sic correction='k'>c</sic>te ut til passet fra byen. Men <placeName wikiData='Q58650'>Kalgan</placeName> har ikke kunnet
+					<lb facs='#facs_11_tr_1_tl_7' n='N007'/>holle sig innenfor muren, den er vokset <subst add='o' del='u'>o</subst>p et stykke i passet også. Det
+					<lb facs='#facs_11_tr_1_tl_8' n='N008'/>var vel nermest de gamle russiske kjøpmenn som først satte sig ned uten-
+					<lb facs='#facs_11_tr_1_tl_9' n='N009'/>for muren i passet. Sa fulgte i tidens løp endel kinesiske firmaer efter,
+					<lb facs='#facs_11_tr_1_tl_10' n='N010'/>da de som hadde forretninger på <placeName wikiData='Q711'>Mongolia</placeName> fannt det mere praktisk at ta
+					<lb facs='#facs_11_tr_1_tl_11' n='N011'/>imot de mongolske kamelkaravaner derute. Det pleiet altid at vere en
+					<lb facs='#facs_11_tr_1_tl_12' n='N012'/>veldig trafik i denne bydel utenfor muren, thi her møttes nesten hele
+					<lb facs='#facs_11_tr_1_tl_13' n='N013'/>Mongolia med Kina i fredelig forretning. Siden ytre Mongolia blev a<subst add='v' del='l'>v</subst>skåre
+					<lb facs='#facs_11_tr_1_tl_14' n='N014'/>fra Kina av politiske årsaker har denne bydel utenfor muren vert ved å
+					<lb facs='#facs_11_tr_1_tl_15' n='N015'/>dø ut. Det ene kinesiske firma efter det annet har pakket op og flyttet
+					<lb facs='#facs_11_tr_1_tl_16' n='N016'/>derfra, og fortsetter det som det har begynnt s<sic correction='å'>a</sic> varer det vel ikke
+					<lb facs='#facs_11_tr_1_tl_17' n='N017'/>lenge før munningen av <subst add='x' del='N'>x</subst>xx <geogName>Hanor passet</geogName> blir overlatt til sin øde men
+					<lb facs='#facs_11_tr_1_tl_18' n='N018'/>stolte natur. Det er en vill natur i dette passet, noget som man ikke
+					<lb facs='#facs_11_tr_1_tl_19' n='N019'/>lett glemmer. På sine steder henger fjellveggen loddrett over husene som
+					<lb facs='#facs_11_tr_1_tl_20' n='N020'/>er klemt sammen op på den bratte skr<sic correction='å'>a</sic>ning ved foten<hi rend='strikethrough:true;'>n</hi>. Det kan ikke bygges
+					<lb facs='#facs_11_tr_1_tl_21' n='N021'/>nede på selve bunnen av passet, thi skjønt det er tørt for det meste kan
+					<lb facs='#facs_11_tr_1_tl_22' n='N022'/>det i løper av minutter forvandles til en fossende fjellelv, hvis der
+					<lb facs='#facs_11_tr_1_tl_23' n='N023'/>passerer noen regnskyll høiere op.
+					<lb facs='#facs_11_tr_1_tl_24' n='N024'/>Et halvt hundre meter fra <name type='gate'>Ta Ching Men</name>, porten ut til passet, munner
+					<lb facs='#facs_11_tr_1_tl_25' n='N025'/>også elvepasset ut i bygrensen. Muren fra porten til elven er av type som
+					<lb facs='#facs_11_tr_1_tl_26' n='N026'/>en almindelig kin<supplied reason='fused with previous letter, hard to see'>e</supplied>sisk bymu<subst add='r' del='t'>r</subst>. På vestsiden av porten og på østsiden av
+					<lb facs='#facs_11_tr_1_tl_27' n='N027'/>elven henger fjellveggene lodret ned, så der er all mur umuliggjort. Men
+					<lb facs='#facs_11_tr_1_tl_28' n='N028'/>oppe pa de skarpryggede fjell til begge sider slynger den gamle kinesiske
+					<lb facs='#facs_11_tr_1_tl_29' n='N029'/>mur sig ut i det uendelige, altid over de høieste og mest utilgjengelige
+					<lb facs='#facs_11_tr_1_tl_30' n='N030'/>fjell. Dette er den ytre mur, og sikkert nok den eldste muren. Den muren
+					<lb facs='#facs_11_tr_1_tl_31' n='N031'/>i <geogName>Nankow passet</geogName>, som alle tur<subst add='i' del='r'>i</subst>ster fra Peking drar op for at se på, er nok
+					<lb facs='#facs_11_tr_1_tl_32' n='N032'/>endel yngre og langt mere moderne av utseende.
+				</p>
+				<pb facs='#facs_12' xml:id='0012_p012.jpg' n='12'/>
+				<p facs='#facs_12_tr_1'>
+					<lb facs='#facs_12_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_12_tr_1_tl_2' n='N002'/>- 11 -
+					<lb facs='#facs_12_tr_1_tl_3' n='N003'/>FRED?
+					<lb facs='#facs_12_tr_1_tl_4' n='N004'/>---
+					<lb facs='#facs_12_tr_1_tl_6' n='N005'/>For første gang siden <sic correction='revolutionen'>revulutionen</sic> i 1911 gav Kina, spesielt inn-
+					<lb facs='#facs_12_tr_1_tl_7' n='N006'/>lannet, inntrykk av at vere et fredens lann med forhollsvis ordnede
+					<lb facs='#facs_12_tr_1_tl_8' n='N007'/>forholl. Hvert år har det vert borgerkrig et eller annet sted i lannet;
+					<lb facs='#facs_12_tr_1_tl_9' n='N008'/>ofte flere på en gang. Og i pusterummene mellem bo<subst add='r'>r</subst>gerkrigerne manglet
+					<lb facs='#facs_12_tr_1_tl_10' n='N009'/>det ikke på banditter, riktig orga<subst add='n' del='b'>n</subst>iserte røverbander, som ofte var sterke
+					<lb facs='#facs_12_tr_1_tl_11' n='N010'/>nok til at diktere sine forlangender til de lokale myndigheter. Små
+					<lb facs='#facs_12_tr_1_tl_12' n='N011'/>bander traff man nesten overalt. Våpen og amunition skaffet de sig fra
+					<lb facs='#facs_12_tr_1_tl_13' n='N012'/>soldaterne. Thi som regel var banditterne gamle soldater og soldaterne
+					<lb facs='#facs_12_tr_1_tl_14' n='N013'/>gamle banditter. Blev det slappe tider for banditterne gik de inn i <sic correction='armeen'>ameen</sic>.
+					<lb facs='#facs_12_tr_1_tl_15' n='N014'/>Der blev de en stunn men blev som regel efter en tid trette av det livet,
+					<lb facs='#facs_12_tr_1_tl_16' n='N015'/>spesielt av den grunn at overkomandoen stappet alle midler i sin egen
+					<lb facs='#facs_12_tr_1_tl_17' n='N016'/>lomme istedenfor at betale soldaterne. Soldaterne måtte jo leve og blev
+					<lb facs='#facs_12_tr_1_tl_18' n='N017'/>så til snyltere på både by og lannbefolkningen som heller ville unnerholle
+					<lb facs='#facs_12_tr_1_tl_19' n='N018'/>dem frivilligt enn å bli plyndret. Det var ganske almindelig at byer blev
+					<lb facs='#facs_12_tr_1_tl_20' n='N019'/>plyndret a<subst add='v'>v</subst> garnisonen stationert der. Jeg har g<sic correction='å'>a</sic>tt igjennem mange slike
+					<lb facs='#facs_12_tr_1_tl_21' n='N020'/>plyndringer og kan forsikkre at de er langt verre enn krig. En by jeg var
+					<lb facs='#facs_12_tr_1_tl_22' n='N021'/>i blev <hi rend='strikethrough:true;'>blev</hi> to gange totalt plyndret i løpet av et par månter, begge
+					<lb facs='#facs_12_tr_1_tl_23' n='N022'/>gange av den xxxxxxxxxxxxx samme garnison. Ute på lannet var det ofte like
+					<lb facs='#facs_12_tr_1_tl_24' n='N023'/>ubehageligt å møte soldater som det var å møte banditter. Forskjellen
+					<lb facs='#facs_12_tr_1_tl_25' n='N024'/>mellem de to var at soldaterne bar uniform mens banditterne var langt
+					<lb facs='#facs_12_tr_1_tl_26' n='N025'/>bedre menn. De aller verste banditter var vel de forskjellige generaler
+					<lb facs='#facs_12_tr_1_tl_27' n='N026'/>som regjerte sine distrikter helt uavhengig av regjeringen eller noget
+					<lb facs='#facs_12_tr_1_tl_28' n='N027'/>annet. De var selvherskende, ukronede banditkonger i sine egne riker.
+					<lb facs='#facs_12_tr_1_tl_29' n='N028'/>Det hele var et håpløst, disiplinløst virvar.
+					<lb facs='#facs_12_tr_1_tl_30' n='N029'/>Det var likesom umuligt å fatte at det var blitt slutt på alt dette.
+					<lb facs='#facs_12_tr_1_tl_31' n='N030'/>Det mest utrolige hadde funnet sted: <sic correction='Soldaterne'>Sodaterne</sic> var disiplinerte og i
+					<lb facs='#facs_12_tr_1_tl_32' n='N031'/>aktivitet med øvelser eller arbeide dagen lang! Øiensynligt blev <sic correction='soldater'>sodater</sic>-
+					<lb facs='#facs_12_tr_1_tl_33' n='N032'/>ne regulert betalt! Banditter runnt omkring var helt forduftet! Alt <unclear>xxxxx</unclear>
+					<lb facs='#facs_12_tr_1_tl_34' n='N033'/>sammen helt utrolige ting for den som hadde kjennt forhollene de siste
+				</p>
+				<pb facs='#facs_13' xml:id='0013_p013.jpg' n='13'/>
+				<p facs='#facs_13_tr_1'>
+					<lb facs='#facs_13_tr_1_tl_2' n='N001'/>O. Mamen.
+					<lb facs='#facs_13_tr_1_tl_3' n='N002'/>- 12 -
+					<lb facs='#facs_13_tr_1_tl_4' n='N003'/>noen og tyve årene. Armeen, tidligere b<unclear>æ</unclear>rmen av folket, lannets verste
+					<lb facs='#facs_13_tr_1_tl_5' n='N004'/>parasiter, var nu blitt helt mønsterverdig. Og de<subst add='t' del='n'>t</subst> mest utrolige var
+					<lb facs='#facs_13_tr_1_tl_6' n='N005'/>vel det faktum, at Kina hadde opdrevet at finne ledere, militere og
+					<lb facs='#facs_13_tr_1_tl_7' n='N006'/>siville, som så ut til å arbeide for hvad de var satt til istedenfor
+					<lb facs='#facs_13_tr_1_tl_8' n='N007'/>utelukkende for å fylle sine egne lommer.
+					<lb facs='#facs_13_tr_1_tl_9' n='N008'/>Det var ikke bare de militere og siville administratører som hadde
+					<lb facs='#facs_13_tr_1_tl_10' n='N009'/>blitt omsmeltet heller. Det var første gang siden 1911 at det var en
+					<lb facs='#facs_13_tr_1_tl_11' n='N010'/>regjering som virkelig styrte lannet. Det var første gang <subst add='s' del='d'>s</subst>iden <sic correction='keiser'>kerser</sic>-
+					<lb facs='#facs_13_tr_1_tl_12' n='N011'/>tiden at Kina selv støttet nogen regjering. Endelig hadde man sløifet
+					<lb facs='#facs_13_tr_1_tl_13' n='N012'/>all innlannstoll. Endelig var det blit litt orden i pengevesenet så der
+					<lb facs='#facs_13_tr_1_tl_14' n='N013'/>ikke var noen sakallte &quot;store&quot; og &quot;små&quot; myntenheter og alle de masser av
+					<lb facs='#facs_13_tr_1_tl_15' n='N014'/>veksle-banker var helt forsvunnet. Kina hollt på å våkne op<subst add=',' del='.'>,</subst> det kunne
+					<lb facs='#facs_13_tr_1_tl_16' n='N015'/>ikke vere tvivl om annet.
+					<lb facs='#facs_13_tr_1_tl_17' n='N016'/>Og det så ut til at det xxxxxxxxxxxx endelig engang fanntes penger
+					<lb facs='#facs_13_tr_1_tl_18' n='N017'/>nok i de ofentlige kasser til å gjøre lokale forbedringer også. <placeName wikiData='Q58650'>Kalgan</placeName>
+					<lb facs='#facs_13_tr_1_tl_19' n='N018'/>var blitt pusset op og forbedret xx<note></note> <subst add='i' del='f'>i</subst> flere henseender. Den store stålbro
+					<lb facs='#facs_13_tr_1_tl_20' n='N019'/>over elven var jo adskillige år gammel nu, men den stod også som et
+					<lb facs='#facs_13_tr_1_tl_21' n='N020'/>monument fra den tid den såkallte kristne general <persName>Feng-Yu-Cha<subst add='n'>n</subst>g</persName> regjerte
+					<lb facs='#facs_13_tr_1_tl_22' n='N021'/>i <placeName wikiData='Q58650'>Kalgan</placeName>. Det var sørgelig at den gamle, maleriske stenbro, som antagelig
+					<lb facs='#facs_13_tr_1_tl_23' n='N022'/>har statt urokkelig mot mangen en stor oversvømmelse helt fra den tid
+					<lb facs='#facs_13_tr_1_tl_24' n='N023'/>Mongolerne regjerte Kina, endelig måtte rives. Men skal man regne med
+					<lb facs='#facs_13_tr_1_tl_25' n='N024'/>alle de <sic correction='menneskeliv'>meneskeliv</sic>, og all den verdi som er blitt vasket bo<subst add='r' del='t'>r</subst>t av over-
+					<lb facs='#facs_13_tr_1_tl_26' n='N025'/>svømmelser forårsaket av den gamle bro, ja da var den nok dødsdømt med
+					<lb facs='#facs_13_tr_1_tl_27' n='N026'/>full rett. Det fikk ikke hjelpe om den så malerisk ut, om selveste
+					<lb facs='#facs_13_tr_1_tl_28' n='N027'/><persName wikiData='Q720'>stor-Khanen fra Mongolia</persName> hadde passert over den på veien til eller fra
+					<lb facs='#facs_13_tr_1_tl_29' n='N028'/><placeName wikiData='Q956'>Peking</placeName>, eller om <persName wikiData='Q6101'>Marco Polo</persName> engang hadde slentret over broen, den var for
+					<lb facs='#facs_13_tr_1_tl_30' n='N029'/>farlig for den lavere bydel langs med jernbanen. Thi når regnskyllene,
+					<lb facs='#facs_13_tr_1_tl_31' n='N030'/>eller rettere sakt skybruddene, slap løs oppe i fjellene, da hennte det
+					<lb facs='#facs_13_tr_1_tl_32' n='N031'/>mangen en gang, at den lille bekk man lett kunne hoppe over, pa en halv
+					<lb facs='#facs_13_tr_1_tl_33' n='N032'/>time forvandlet sig <sic correction='til en'>tilen</sic> stor flod som fyllte de mange store brokar
+				</p>
+				<pb facs='#facs_14' xml:id='0014_p014.jpg' n='14'/>
+				<p facs='#facs_14_tr_1'>
+					<lb facs='#facs_14_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_14_tr_1_tl_2' n='N002'/>- 13 -
+					<lb facs='#facs_14_tr_1_tl_3' n='N003'/>og brøt helt over broen. Da virket broen som en dam der sennte store
+					<lb facs='#facs_14_tr_1_tl_4' n='N004'/>vannmasser utover byen pa den østre side, etx tettbebygget forretnings-
+					<lb facs='#facs_14_tr_1_tl_5' n='N005'/>strøk. De skrøpelige jordhus fallt, folk blev vasket bort med strømmen.
+					<lb facs='#facs_14_tr_1_tl_6' n='N006'/>En halv time senere kunne man hoppe over den lille bekken som rannt unner
+					<lb facs='#facs_14_tr_1_tl_7' n='N007'/>et av brokarene. Det er vel ingen av os som glemmer den siste flommen i
+					<lb facs='#facs_14_tr_1_tl_8' n='N008'/>1924. På nogle minutter blev vel trehundrede menesker sopet bort. Og flom-
+					<lb facs='#facs_14_tr_1_tl_9' n='N009'/>men brakte med sig uhyre masser av jor<subst add='d' del='s'>d</subst> og sann som nesten begravet
+					<lb facs='#facs_14_tr_1_tl_10' n='N010'/>en stor del av den nedre bydel. Til og med over jernbanen blev det liggen-
+					<lb facs='#facs_14_tr_1_tl_11' n='N011'/>de en halv meter med solid, <sic correction='hårdpakket'>hårdpakker</sic> jord. Det tørker utroligt fort, og
+					<lb facs='#facs_14_tr_1_tl_12' n='N012'/>i løpet av en dag eller to var dette flom-sediment en hård masse. Det
+					<lb facs='#facs_14_tr_1_tl_13' n='N013'/>kostet mange dagsverk at fåx gravet frem husene igjen hvor sedimentet
+					<lb facs='#facs_14_tr_1_tl_14' n='N014'/>var flere meter tykt, det tok tusindvis av dagsverk at få gravet frem
+					<lb facs='#facs_14_tr_1_tl_15' n='N015'/>jernbaneskinerne over hele tomten hvor det ikke var mere enn et par fot
+					<lb facs='#facs_14_tr_1_tl_16' n='N016'/>med tørt sedement. Den stank Kalgan var innsvøpt i resten av sommeren
+					<lb facs='#facs_14_tr_1_tl_17' n='N017'/>skal lenge errindres. Jernbroen kom op neste år o<subst add='g' del='f'>g</subst> stenbroen blev revet
+					<lb facs='#facs_14_tr_1_tl_18' n='N018'/>før neste flom. <placeName wikiData='Q58650'>Kalgan</placeName> har intet mere å frykte i den retning.
+					<lb facs='#facs_14_tr_1_tl_19' n='N019'/>Skjønt d<sic correction='å'>a</sic>rlige tider i <placeName wikiData='Q58650'>Kalgan</placeName> som ellers runnt i verden, så har bil-
+					<lb facs='#facs_14_tr_1_tl_20' n='N020'/>trafikken gått kraftig fremover. Den dobbelte kjørebane på den nye bro
+					<lb facs='#facs_14_tr_1_tl_21' n='N021'/>blev <sic correction='reservert for'>reservertfor</sic> biler og rickshawer. Den siste av den lange rekke
+					<lb facs='#facs_14_tr_1_tl_22' n='N022'/>generaler som regjerte i <placeName wikiData='Q58650'>Kalgan</placeName> op til 1937 bygge<subst add='t' del='r'>t</subst> en ny bro med sement
+					<lb facs='#facs_14_tr_1_tl_23' n='N023'/><supplied reason='above line written inseration &quot;pilarer&quot;'>pilarer</supplied>
+					<lb facs='#facs_14_tr_1_tl_24' n='N024'/><hi rend='strikethrough:true;'>brokar</hi> xx<note></note> en trehundrede meter overfor. Her må alle hestekjerrer og tung
+					<lb facs='#facs_14_tr_1_tl_25' n='N025'/>traffik pasere. Brokarene var <sic correction='allerede'>allrede</sic> ferdige til den tredje bro over
+					<lb facs='#facs_14_tr_1_tl_26' n='N026'/>elven helt oppe i den øvre bydel.
+					<lb facs='#facs_14_tr_1_tl_27' n='N027'/>Gaterne i <placeName wikiData='Q58650'>Kalgan</placeName> var betydelig forbedret. <blackening comment='Typed over with letters &quot;x&quot;'>Exxxxxxx</blackening> Der fanntes ikke
+					<lb facs='#facs_14_tr_1_tl_28' n='N028'/>flere sten-helle belagte gater hvor kjerrehjulene hadde gravet sig ned
+					<lb facs='#facs_14_tr_1_tl_29' n='N029'/>til over en fot dype hjulspor. Nu var det overalt en heve<subst add='t'>t</subst> og makadamisert
+					<lb facs='#facs_14_tr_1_tl_30' n='N030'/>kjørebane for biler og rickshawer i mitten. Hvor kjerretrafikken ikke
+					<lb facs='#facs_14_tr_1_tl_31' n='N031'/>var henvist til egne gater var der spesielle kjørebaner for kjerrer pa en-
+					<lb facs='#facs_14_tr_1_tl_32' n='N032'/>ten den ene eller begge sider av bil-gaten. Vannkanaler rannt fulle på<hi rend='strikethrough:true;'>å</hi>
+					<lb facs='#facs_14_tr_1_tl_33' n='N033'/>enten den ene eller begge sider av gaten, og coolier slynget vann utover
+				</p>
+				<pb facs='#facs_15' xml:id='0015_p015.jpg' n='15'/>
+				<p facs='#facs_15_tr_1'>
+					<lb facs='#facs_15_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_15_tr_1_tl_2' n='N002'/>- 14 -
+					<lb facs='#facs_15_tr_1_tl_3' n='N003'/>gaten ved hjelp av en øse på en lang stang, så hovedgaterne var på den
+					<lb facs='#facs_15_tr_1_tl_4' n='N004'/>måte hollt støvfri. Det finnes ennu en og annen liten bortgjemt sidegate
+					<lb facs='#facs_15_tr_1_tl_5' n='N005'/>i Kalgan som kan minne en om hvad gaterne tidligere var: Et kaos av
+					<lb facs='#facs_15_tr_1_tl_6' n='N006'/>dype hjulspor og tyk<hi rend='strikethrough:true;'>s</hi> støvdekke i tørrveir, et bunnløst mudderhul i
+					<lb facs='#facs_15_tr_1_tl_7' n='N007'/>regnveir.
+					<lb facs='#facs_15_tr_1_tl_8' n='N008'/>Flere parker var anlagt i byen. Jernbanen hadde forvandlet en stor
+					<lb facs='#facs_15_tr_1_tl_9' n='N009'/>tomt forann stationen til en vakker blomsterpark med nyplantede trer.
+					<lb facs='#facs_15_tr_1_tl_10' n='N010'/>Oppe ved de gamle regjeringsbygninger var der anlagt en vakker park. En
+					<lb facs='#facs_15_tr_1_tl_11' n='N011'/>tredje, og serdeles stor park, var anlagt i den øvre bydel mot floden.
+					<lb facs='#facs_15_tr_1_tl_12' n='N012'/>Her var det et riktig flot anle<subst add='gg' del='dd'>gg</subst>, med bekker, dammer, gamle og nye trer
+					<lb facs='#facs_15_tr_1_tl_13' n='N013'/>samt en masse blomster<subst add='b' del='e'>b</subst>eplantede rabatter. Interesante pavilioner og
+					<lb facs='#facs_15_tr_1_tl_14' n='N014'/>små restauranter manglet heller ikke. Jo, Kalgan var ved å komme sig.
+					<lb facs='#facs_15_tr_1_tl_15' n='N015'/>Høit oppe på fjellveggen vestenom byen ligger, eller måske rettere
+					<lb facs='#facs_15_tr_1_tl_16' n='N016'/>sagt henger, et gammelt vakkert tempel. I almindelighet er det kallt
+					<lb facs='#facs_15_tr_1_tl_17' n='N017'/>&quot;Baby-tempelet&quot; av den grunn at det skulle vere temmelig sik<subst add='k' del='e'>k</subst>ert, i alle
+					<lb facs='#facs_15_tr_1_tl_18' n='N018'/>fall for kineserkoner, ikke bare at opnå en eftertraktet baby, men mere
+					<lb facs='#facs_15_tr_1_tl_19' n='N019'/>bestemt et guttebarn, hvis kvinnen klatret op til tempelet og offret
+					<lb facs='#facs_15_tr_1_tl_20' n='N020'/>til guderne der. <blackening comment='typed over with letter &quot;x&quot;'>x</blackening> <sic correction='Jentunger'>Jemtunger</sic> er jo lite verdt i Kina, de blev for en
+					<lb facs='#facs_15_tr_1_tl_21' n='N021'/>stor del kastet ut såsnart de var føtt; guderne ved tempelet her skulle
+					<lb facs='#facs_15_tr_1_tl_22' n='N022'/>kunne forhindre den ulykken så man kunne vere nogenlunde sikker på at
+					<lb facs='#facs_15_tr_1_tl_23' n='N023'/>det blev et guttebarn. Det hennte nok ofte at en stakkars kone fik en
+					<lb facs='#facs_15_tr_1_tl_24' n='N024'/>riktig omgang med juling av mannen hvis ikke noen barn kom til verden.
+					<lb facs='#facs_15_tr_1_tl_25' n='N025'/>At det muligens kunne vere mannens skyll fallt ingen i tankerne. Ja så
+					<lb facs='#facs_15_tr_1_tl_26' n='N026'/>var det ikke annet å gjøre for den stakkels kona enn å slite sig op
+					<lb facs='#facs_15_tr_1_tl_27' n='N027'/>over den bratte, elendige fjellstien til tempelet; og på de små, forkrøp<supplied reason='missing'>-</supplied>
+					<lb facs='#facs_15_tr_1_tl_28' n='N028'/>lede føtterne var det vanskelig nok at stultre avsted tvers over gaten,
+					<lb facs='#facs_15_tr_1_tl_29' n='N029'/>så man kan tenke sig hvad en fjellsti betød for disse koner. De som <subst add='xxxx' del='hadd'>xxxx</subst>
+					<lb facs='#facs_15_tr_1_tl_30' n='N030'/>hadde råd til det kunne vel bli båret op, men det skulle ikke på langt
+					<lb facs='#facs_15_tr_1_tl_31' n='N031'/>ner vere så effektivt. Skulle man vere riktig sikker på et bra resultat
+					<lb facs='#facs_15_tr_1_tl_32' n='N032'/>så skulle man ikke bare spasere hvert skrit op til tempelet, men senere
+				</p>
+				<pb facs='#facs_16' xml:id='0016_p016.jpg' n='16'/>
+				<p facs='#facs_16_tr_1'>
+					<lb facs='#facs_16_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_16_tr_1_tl_2' n='N002'/>- 15 -
+					<lb facs='#facs_16_tr_1_tl_3' n='N003'/>skulle de ta fat på den ennu vanskeligere opstigning til toppen av fjel<subst add='--' del='le'>--</subst>
+					<lb facs='#facs_16_tr_1_tl_4' n='N004'/>let ovenfor tempelet, hvor der står en stor muret konus som skulle tilbe-
+					<lb facs='#facs_16_tr_1_tl_5' n='N005'/>des. I tempelet er der to grotter som går et stykke in i fjellveggen. I
+					<lb facs='#facs_16_tr_1_tl_6' n='N006'/>den ene er det altid kollt vann som dribler ut av selve fjellet. I den
+					<lb facs='#facs_16_tr_1_tl_7' n='N007'/>annen er vannet stadig frosset, hele brønnen derinne er isbelagt året
+					<lb facs='#facs_16_tr_1_tl_8' n='N008'/>runnt. At drikke vann fra kilden her var en av de seremonier som de
+					<lb facs='#facs_16_tr_1_tl_9' n='N009'/>tilbedende måtte gjennemgå. Det er forresten godt vann. Det ene hjalp
+					<lb facs='#facs_16_tr_1_tl_10' n='N010'/>med det annet og hvis alle seremonier blev riktig gjennemgået, så var
+					<lb facs='#facs_16_tr_1_tl_11' n='N011'/>det ikke tale om annet enn at en baby snart ville vere i opmarsj. Men
+					<lb facs='#facs_16_tr_1_tl_12' n='N012'/>giftige tunger finnes det overalt; det var også her de som påstod at
+					<lb facs='#facs_16_tr_1_tl_13' n='N013'/>presterne ved tempelet hadde selv mere å bestille med den saken enn
+					<lb facs='#facs_16_tr_1_tl_14' n='N014'/>de mektige guder, <subst add='xx' del='fl'>xx</subst> fjellklatring og vanndrikking.
+					<lb facs='#facs_16_tr_1_tl_15' n='N015'/>Istedenfor den eneste hengbratte, stenete stien er der nu anlagt
+					<lb facs='#facs_16_tr_1_tl_16' n='N016'/>to bilveier som fører nesten like op til tempelet. Fra hvor den ene
+					<lb facs='#facs_16_tr_1_tl_17' n='N017'/>slutter har man en bra gangsti langs fjellveggen til tempelet, uten
+					<lb facs='#facs_16_tr_1_tl_18' n='N018'/>min<subst add='n' del='d'>d</subst>ste stigning. Fra den annen er det endel trapper at klyve op til
+					<lb facs='#facs_16_tr_1_tl_19' n='N019'/>selve tempelet. Nu burde produktionen av guttebarn i Kalgan florere.
+					<lb facs='#facs_16_tr_1_tl_20' n='N020'/>Men folk forandrer sig. Nu går de aller fleste ut for fornøielsens skyll.
+					<lb facs='#facs_16_tr_1_tl_21' n='N021'/>Der er et herligt sted med mange gamle og nye beplantninger; friskt og
+					<lb facs='#facs_16_tr_1_tl_22' n='N022'/>luftigt efter <subst add='man' del='[unlcear]'>xxxxxxx</subst> komme<subst add='r' del='t'>r</subst> op fra byen. Det er stadig besøkende der nu,
+					<lb facs='#facs_16_tr_1_tl_23' n='N023'/>de fleste i partier. Enkelte spaserer<blackening comment='typed over'>x</blackening> fra toppen på den nyanlagte sti
+					<lb facs='#facs_16_tr_1_tl_24' n='N024'/>langs ryggen sydover fjellet til et annet tempel som ligner et tårn på
+					<lb facs='#facs_16_tr_1_tl_25' n='N025'/>avstann. Herfra g<sic correction='å'>a</sic>r det fotstier nedover mot byen for de som vir<subst add='ke' del='lec'>ke</subst>lig er
+					<lb facs='#facs_16_tr_1_tl_26' n='N026'/>ute for at bevege sig.
+					<lb facs='#facs_16_tr_1_tl_27' n='N027'/><sic correction='På'>Pa</sic> toppen av den loddrette fjellvegg som reiser sig i den øvre bydel
+					<lb facs='#facs_16_tr_1_tl_28' n='N028'/>ligger en slette som strekker sig et stykke innover mo<subst add='t' del='r'>t</subst> den kinesiske <subst add='xxx' del='mur'>xxx</subst>
+					<lb facs='#facs_16_tr_1_tl_29' n='N029'/>mur. En pavilion er satt op helt ute på kanten av stupet over byen og
+					<lb facs='#facs_16_tr_1_tl_30' n='N030'/>tar sig bra ut nedenfra. Et hus og en annen pavilion er bygget lengere
+					<lb facs='#facs_16_tr_1_tl_31' n='N031'/>inn på sletten. En hel del trer er plantet oppe på denne sletten, og i
+					<lb facs='#facs_16_tr_1_tl_32' n='N032'/>en ner fremtid vil nok disse vise sig på lang avstann. Det er et farligt
+				</p>
+				<pb facs='#facs_17' xml:id='0017_p017.jpg' n='17'/>
+				<p facs='#facs_17_tr_1'>
+					<lb facs='#facs_17_tr_1_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_17_tr_1_tl_2' n='N002'/>- 16 -
+					<lb facs='#facs_17_tr_1_tl_3' n='N003'/>strev med å bære vann o<subst add='p' del='f'>p</subst> til disse nyplantningerne. En skulle nesten
+					<lb facs='#facs_17_tr_1_tl_4' n='N004'/>vere forberedt på å måtte betale tredobbelt for en kop te i den lille
+					<lb facs='#facs_17_tr_1_tl_5' n='N005'/>restauranten deroppe på grunn av den lange avstann vannet må <sic correction='fraktes'>fraktet</sic>.
+					<lb facs='#facs_17_tr_1_tl_6' n='N006'/>Men arbeidet tar man ikke så meget i betraktning. <subst add='H' del='h'>H</subst>verken te, eller øl
+					<lb facs='#facs_17_tr_1_tl_7' n='N007'/>koster mere deroppe enn andre steder.
+					<lb facs='#facs_17_tr_1_tl_8' n='N008'/>Noen kil<subst add='o' del='l'>o</subst>meter utenfor byen, i et pass der fører vestover mot byen
+					<lb facs='#facs_17_tr_1_tl_9' n='N009'/><placeName>Wanhsuan</placeName>, er der et gammelt tempel hvor man i de senere år har nedlagt
+					<lb facs='#facs_17_tr_1_tl_10' n='N010'/>en hel del arbeide. xxx <name type='religious building'>Shui-Mu-Kun</name>, som tempelet heter, er bygget helt
+					<lb facs='#facs_17_tr_1_tl_11' n='N011'/>op mot det bratte fjell hvor en kilde spruter ut av selve fjellveggen.
+					<lb facs='#facs_17_tr_1_tl_12' n='N012'/>Kilden danner en liten bekk som holler vann året runnt, og dette har
+					<lb facs='#facs_17_tr_1_tl_13' n='N013'/>man benyttet sig av til <sic correction='å'>a</sic> lave en hel rekke dammer og basenger hvor der
+					<lb facs='#facs_17_tr_1_tl_14' n='N014'/>nu svømmer gullfisk. Fra <sic correction='kilden'>Kilden</sic> går bekken unner tempelet i en stor,
+					<lb facs='#facs_17_tr_1_tl_15' n='N015'/>buet port. Ovenfor tempelet er der anlagt en masse spaserstier a<subst add='v' del='t'>v</subst> hvilke
+					<lb facs='#facs_17_tr_1_tl_16' n='N016'/>man når til toppen av fjellet, hvorfra man kan se ned i <name type='mountain pass'>Hanor passe<sic correction='n'>s</sic></name> på
+					<lb facs='#facs_17_tr_1_tl_17' n='N017'/>den motsatte side, eller man kan finne flere andre lettere tilgjengelige
+					<lb facs='#facs_17_tr_1_tl_18' n='N018'/>utsiktspunkter. En masse trer er blitt plantet overalt på fjellskråninger<supplied reason='missing'>-</supplied>
+					<lb facs='#facs_17_tr_1_tl_19' n='N019'/>ne. De<subst add='t' del='r'>t</subst> er et skjeldent vakkert sted nu, og om noen år, når trerne er
+					<lb facs='#facs_17_tr_1_tl_21' n='N020'/><blackening comment='manual blackening of entire word'>xxxxx</blackening> <supplied reason='manually written above line'>vokset</supplied> op, vil det sikkert bli det rene paradis. Tempelet fungerer nu
+					<lb facs='#facs_17_tr_1_tl_22' n='N021'/>som hove<subst add='d' del='r'>d</subst>restaurant.
+					<lb facs='#facs_17_tr_1_tl_24' n='N022'/>Når man ser alle disse forbedringer og anlegg, så kan man ikke <supplied reason='written above line'>unnlate</supplied> <blackening comment='manual strikethrough'>x</blackening> å
+					<lb facs='#facs_17_tr_1_tl_25' n='N023'/>spørre om selve folket også er blitt forandret. Det er nok nermest infly-
+					<lb facs='#facs_17_tr_1_tl_26' n='N024'/>telse utenfra som xxx er ansvarlig for forbedringerne. Det nye Kina, det
+					<lb facs='#facs_17_tr_1_tl_27' n='N025'/>nye blod med nye ideer har funnet veien til <placeName wikiData='Q58650'>Kalgan</placeName>. De gamle Kalganiter
+					<lb facs='#facs_17_tr_1_tl_28' n='N026'/>er nok like uforanderlige. De lever det samme regulere, daglige liv og
+					<lb facs='#facs_17_tr_1_tl_29' n='N027'/>tar liten eller ingen interesse i hvad den nye tids folk driver med. <blackening>xxxx</blackening>
+					<lb facs='#facs_17_tr_1_tl_30' n='N028'/>De eneste adspredelser disse gamle har er også enslag<subst add='s' del='t'>s</subst> rutine, det er
+					<lb facs='#facs_17_tr_1_tl_31' n='N029'/>at holle middag for hinannen i en eller annen restaurant.
+					<lb facs='#facs_17_tr_1_tl_32' n='N030'/>Når man unntar russerne så er det nu ikke på langt ner så mange
+					<lb facs='#facs_17_tr_1_tl_33' n='N031'/>europeere i <placeName wikiData='Q58650'>Kalgan</placeName> som tidligere. Derimot har japanerne kommet inn i be-
+					<lb facs='#facs_17_tr_1_tl_34' n='N032'/>tydeligt anntal. Japanerne er vel <sic correction='også'>ogsa</sic> mere skikket for å legge sig
+				</p>
+				<pb facs='#facs_18' xml:id='0018_p018.jpg' n='18'/>
+				<p facs='#facs_18_tr_2'>
+					<lb facs='#facs_18_tr_2_tl_1' n='N001'/>O. Mamen.
+					<lb facs='#facs_18_tr_2_tl_2' n='N002'/>- 17 -
+					<lb facs='#facs_18_tr_2_tl_3' n='N003'/>efter <sic correction='all'>al</sic> mulig forretning i innlannet enn de fleste av os. De er også
+					<lb facs='#facs_18_tr_2_tl_4' n='N004'/>på mange må<subst add='t'>t</subst>er mere nøisomme med utfallet av forretningerne enn vi er.
+					<lb facs='#facs_18_tr_2_tl_5' n='N005'/>De kan holle ut å vente lengere på at en eller annen liten forretning
+					<lb facs='#facs_18_tr_2_tl_6' n='N006'/>skal gå av stabellen, og de tar tiltakke med mindre utbytte når endelig
+					<lb facs='#facs_18_tr_2_tl_7' n='N007'/>forretningen er gått ilås. Som regel er de også nøisommere og har ferre
+					<lb facs='#facs_18_tr_2_tl_8' n='N008'/>fordringer til livet enn vi. De har altid vert dårlig likt blannt kineser-
+					<lb facs='#facs_18_tr_2_tl_9' n='N009'/>ne og det <blackening comment='scribbeled over with pencil'>det</blackening> er likeså lett forståelig som at alle mongoler mere og
+					<lb facs='#facs_18_tr_2_tl_10' n='N010'/>mindre hater kineserne. Når forskjellige folkeslag har så vidt forskjellig
+					<lb facs='#facs_18_tr_2_tl_11' n='N011'/>mentalitet som de tre ovenfor nevnte, da kan de ikke riktig godt komme
+					<lb facs='#facs_18_tr_2_tl_12' n='N012'/>til å føle sig som brødre. Men det later ikke til at nogen av de tre, kan
+					<lb facs='#facs_18_tr_2_tl_13' n='N013'/>henne med unntagelse av mongolerne, setter friktionen mellem dem i for-
+					<lb facs='#facs_18_tr_2_tl_14' n='N014'/>binnelse med uensartet mentalitet. At en hel del, ja antagelig de fleste,
+					<lb facs='#facs_18_tr_2_tl_15' n='N015'/>europeere ikke har noe serlig tilovers for japanerne, eller omvennt, kan
+					<lb facs='#facs_18_tr_2_tl_16' n='N016'/>man sikkert no<subst add='kk'>kk</subst> til en stor del tilskrive at de ikke kjenner hinanden.
+					<lb facs='#facs_18_tr_2_tl_17' n='N017'/>Japanerne er ikke de folk som søker selskap blannt andre. For mange år
+					<lb facs='#facs_18_tr_2_tl_18' n='N018'/>trodde jeg de var noen egne, mærkelige folk. Efter et par besøk i Japan
+					<lb facs='#facs_18_tr_2_tl_19' n='N019'/>kom jeg <sic correction='på'>pa</sic> andre tanker, og de japanere jeg senere har kommet i forbin-
+					<lb facs='#facs_18_tr_2_tl_20' n='N020'/>nelse med i Kina har jeg funnet å vere meget tiltalende folk. At japaner-
+					<lb facs='#facs_18_tr_2_tl_21' n='N021'/>ne er kommet mannsterke hit til <placeName wikiData='Q58650'>Kalgan</placeName> er jo ganske naturligt. <placeName wikiData='Q58650'>Kalgan</placeName>
+					<lb facs='#facs_18_tr_2_tl_22' n='N022'/>ligger<blackening comment='strikethrough manually with pencil'>r</blackening> jo på grensen av Mongolia som nu er unner japansk beskyttelse<note></note>.
+					<lb facs='#facs_18_tr_2_tl_23' n='N023'/>Og <placeName wikiData='Q58650'>Kalgan</placeName> er jo det punkt som <subst add='xx'>xx</subst> den største mongolske handel har pasert
+					<lb facs='#facs_18_tr_2_tl_24' n='N024'/>igjennem.
+					<lb facs='#facs_18_tr_2_tl_25' n='N025'/>Ja, et fredens billede var <placeName wikiData='Q58650'>Kalgan</placeName>, som hvistnok resten av Kina. Det
+					<lb facs='#facs_18_tr_2_tl_26' n='N026'/>var helt utroligt at der ikke engang var rykter i luften om krig eller
+					<lb facs='#facs_18_tr_2_tl_27' n='N027'/>røverbander, den slags man var så vannt til å ha med å bestille. Det var
+					<lb facs='#facs_18_tr_2_tl_28' n='N028'/>for mig blitt som en del av den regulere rutine alt dette med krig og
+					<lb facs='#facs_18_tr_2_tl_29' n='N029'/>uroligheter. Den eneste forandring var vel for mig i krigsårene 1931-32
+					<lb facs='#facs_18_tr_2_tl_30' n='N030'/>da japanerne tok <placeName wikiData='Q30623'>Manchukuo</placeName>; det var den fredeligste tid jeg nogengang
+					<lb facs='#facs_18_tr_2_tl_31' n='N031'/>har oplevet i de egne, og vi ri<subst add='k' del='g'>k</subst>tig nøt krigen av den grunn skjønt vi
+					<lb facs='#facs_18_tr_2_tl_32' n='N032'/>kom i ner kontakt med den. Men det er en annen historie. Her var det en
+					<lb facs='#facs_18_tr_2_tl_33' n='N033'/>helt naturlig fred.
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
