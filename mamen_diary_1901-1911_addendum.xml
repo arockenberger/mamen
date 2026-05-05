@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Keiserkroningen i Urga</title>
+				<author>
+					<persName>
+						<forename>Bernt</forename>
+						<forename>Oscar</forename>
+						<forename>Malling</forename>
+						<surname>Mamen</surname>
+					</persName>
+				</author>
+				<respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+					<orgName>Universitetet i Oslo Bibliotek</orgName>
+					<resp>
+						<note type="remarkResponsibility">Digitalisering.</note>
+						<ref target="https://www.ub.uio.no"/>
+						<date type="creation">2025-03-17</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<persName>
+						<forename>Annika</forename>
+						<surname>Rockenberger</surname>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Tekstkoding og tekstetablering.</note>
+						<date type="creation">2026-05-04</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<persName>
+						<forename>Øystein</forename>
+						<forename>Johan</forename>
+						<surname>Kleiven</surname>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Historisk og geopolitisk kommentar.</note>
+						<date type="creation">2026-04-20</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<persName>
+						<forename>Maria</forename>
+						<surname>Kartveit</surname>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Biografisk kommentar</note>
+						<date type="creation">2026-04-20</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<orgName>Transkribus, Read Coop</orgName>
+					<resp>
+						<note type="remarkResponsibility">Automatisk tekstgjenkjenning</note>
+						<note type="remarkDocument">Tekst gjenkjent med tekstgjenkjenningsmodellen "mamen_handwr_v8", trent av Annika Rockenberger i åtte iterasjoner på Mamens håndskriftlige materialer fra årene 1901 til 1913. Ground Truth basert på 190 sider med 32.966 ord og en CER 2.74%. Manuelt kvalitetssjekket og korrekturlest.</note>
+					</resp>
+				</respStmt>
+				<respStmt>
+					<orgName>Kulturhistorisk Museum, Arkivet</orgName>
+					<resp>
+						<note type="remarkResponsibility">Eierinstitusjon</note>
+						<ref target="https://www.khm.uio.no"/>
+					</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt><edition>Tekstkritisk utgave</edition></editionStmt>
+			<extent>
+				<measure type="images">4</measure>
+				<measure type="tokens"/>
+				<measure type="types"/>
+				<measure type="characters"/>
+			</extent>
+			<publicationStmt>
+				<publisher xml:id="bokselskap">
+					<email>kontakt@bokselskap.no</email>
+					<orgName role="project">Bokselskap ved Det Norske Språk- og Litteraturselskap (NSL)</orgName>
+					<orgName role="hostingInstitution" xml:lang="en">The National Library of Norway (NB)</orgName>
+					<orgName role="hostingInstitution" xml:lang="no">Nasjonalbiblioteket (NB)</orgName>
+					<address>
+						<addrLine>Postboks 2674 Solli, 0203 Oslo</addrLine>
+						<country>Norge</country>
+					</address>
+				</publisher>
+				<pubPlace>Oslo</pubPlace>
+				<date type="publication">2026-04-20</date> <!-- change to correct date at publication -->
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+						<p>Verk erklært i det fri.</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1"><!-- change or remove -->
+					<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+						<p>Verk erklært i det fri.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="M">Keiserkroningen i Urga</bibl>
+				<biblFull>
+					<titleStmt>
+						<title level="m" type="main">Keiserkroningen i Urga</title>
+						<author>
+							<persName>
+								<forename>Bernt</forename>
+								<forename>Oscar</forename>
+								<forename>Malling</forename>
+								<surname>Mamen</surname>
+							</persName>
+						</author>
+					</titleStmt>
+					<editionStmt>
+						<edition n="1"/>
+					</editionStmt>
+					<publicationStmt>
+						<publisher/>
+						<pubPlace xml:id="Q58650">Urga/Ulanbataar</pubPlace>
+						<date type="publication">1911</date>
+					</publicationStmt>
+				</biblFull>
+				<msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1"><!-- change or remove -->
+					<msIdentifier>
+						<repository>Universitetet i Oslo, Kulturhistorisk Museum, Arkivet</repository>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>Automatisk tekstgjenkjenning, korrekturlest og tekstkritisk utarbeidet ved Annika Rockenberger.</p>
+				<p>Her kommer hele den editoriske redegjørelsen.</p><!-- add when done; possibly use more structural tags -->
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage><language ident="no">Norsk riksmål</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<pb facs="#f0001" n='1'/>
+				<head rendition="#u">Keiserkroningen i Urga.</head>
+				<p>
+					<lb/>Den <date when="1911-12-29">29de December 1911</date>.
+					<lb/>kronede mongolerne sin <del rendition="#s">keiser</del> <hi rendition="#u"><persName ref="https://www.wikidata.org/wiki/Q353547"><hi rendition="#u">Baagde</hi></persName></hi>
+					<lb/>eller «Levende Gud», til keiser over
+					<lb/><placeName ref="https://www.wikidata.org/wiki/Q711">Mongolia</placeName>. Vi var et kompagni paa 4 Auro-
+					<lb/>pæere og vor kinesiske «mafoo», der steg
+					<lb/>tilhest og red over til <placeName full="abb" ref="https://www.wikidata.org/wiki/Q23430"><choice><orig>V.</orig><reg>Vest</reg></choice>V. Urga</placeName> kl. 10 f.m.
+					<lb/>Da vi kom op til den store aabne plads
+					<lb/>var der allerede e<subst><del rendition="#ow">m</del><add place="across">n</add></subst> masse menesker. Vei-
+					<lb/>ret var man ogsaa særdeles heldig med;
+					<lb/>det var straalende solskin og ikke
+					<lb/>saa koldt som før om dagene. Soldater
+					<lb/>havde ryddet folk til side og holdt
+					<lb/>aaben en <del rendition="#s">s</del>bred vei lige fra Baagdas
+					<lb/>residens til tempelet, ca 2 km. Kl. var
+					<lb/>ikke mere end halv elleve da der
+					<lb/>drønnet 3 kanonskud til tegn paa at
+					<lb/>nu forlod <persName ref="https://www.wikidata.org/wiki/Q353547">Baagda</persName> paladset, og straks efter
+					<lb/><del rendition="#s">Ku</del> kunde vi se et megtigt tog i bevæ-
+					<lb/>gelse <del rendition="#s">fra</del>over sletten mellem residensen
+				<pb facs="#f0002" n='2'/>
+					<lb/>og byen. Først kom en hel masse prinser
+					<lb/>og andre høitstaaende personer<del rendition="#s">,</del> <subst><del rendition="#ow">sa</del><add place="across">i</add></subst> fantastike,
+					<lb/>maleriske dragter; <del rendition="#s">eft</del> kort efter disse kom en
+					<lb/>del soldater med banner i spidsen, <del rendition="#s">Nogle</del>
+					<lb/>saa et mellemrum, hvor der red et
+					<lb/>par prinser og saa atter soldater med
+					<lb/>forskjellige gule og hvide banere. Hvor
+					<lb/>mange soldater det var var vanskeligt at
+					<lb/>sige. Efter soldaterne kom en masse
+					<lb/>Lamaer efter disse igjen atter nogle prinser
+					<lb/>og saa kom <add place="sublinear">i kort afstand forand</add> en enkelt høierestaande
+					<lb/>mongol i spidsen for «Kroningsvognen»
+					<lb/>og efter ham i skjøn <del rendition="#s">sted</del> orden kom
+					<lb/>2 <add place="superlinear"><metamark/>hvide</add>mynder. Kroningsvognen var en
+					<lb/>meget enkel gul <add place="superlinear"><metamark/>2 hjulet</add> vogn, de<subst><del rendition="#ow">m</del><add place="across">t</add></subst> var helt
+					<lb/>indlukket og betrukket med gul silke.
+					<lb/>Den blev trukket af adskillige lamaer
+					<lb/>paa hest, der holdt stænger mellem sig
+					<lb/>hvorfra trækliner til vogndragene gik.
+					<lb/>Lige i front af vognspondet red en
+					<lb/>med en mægtig, gul fane, hvorfra gik
+					<lb/>fire barduner til ligesaa mange ryttere
+				<pb facs="#f0003" n='3'/>
+					<lb/>rundt omkring. Efter Baagdas vogn i kort
+					<lb/>afstand kom en lignende vogn og derefter igjen en
+					<lb/>masse lamaer. Efter lamaerne kom det
+					<lb/>ene kompagni soldater efter det andet under
+					<lb/>sine forskjellige bannere. Det hele var et
+					<lb/>meget vakkert skue. Ca. 2 timer efter <persName ref="https://www.wikidata.org/wiki/Q353547">Baagda</persName>
+					<lb/>kom presenterne til ham fra alle landets dele;
+					<lb/>de bestod af heste og kameler, <subst><del rendition="#ow">d</del><add place="across">b</add></subst>egge dele hvide.
+					<lb/>Alle hestene havde et <subst><del rendition="#s">par <hi rendition="#u"></hi>Zobelskind</del><add place="superlinear">ræveskind</add></subst> rundt
+					<lb/>halsen og var forsynet med silkegrime med
+					<lb/>tilhørende silketaug; Alle kamelerne havde
+					<lb/><subst><del rendition="#s">et eller flere ræveskind</del><add place="superlinear"><metamark/>to Zobelskind</add></subst> om halsen og næse-
+					<lb/>pinden var af rent sølv ligesom holdtaugene
+					<lb/>var af gul silke. Det var ialt ca. <subst><del rendition="#ow">3</del><add place="across">1</add></subst>00
+					<lb/>kameler og ca <subst><del rendition="#ow">8000</del><add place="across">300</add></subst> heste som paa denne
+					<lb/>maate blev foræret <persName ref="https://www.wikidata.org/wiki/Q353547">Baagda</persName>. Kroningssere-
+					<lb/>monien lod vente paa sig. Først lød 3 kanon-
+					<lb/>skud til at kalde soldaterne sammen, saa
+					<lb/>efter en lang time atter 3 til tegn paa et
+					<lb/>eller andet; endnu 2 gange 3 skud og <persName ref="https://www.wikidata.org/wiki/Q353547">Baagda</persName>
+					<lb/>kom ikke før solen alt var krøbet i ly
+					<lb/>bag en høi fledtop i vest og det begyndte
+					<lb/>allerede at mørk<subst><del rendition="#ow">t</del><add place="across">ne</add></subst>, da prosetionen
+				<pb facs="#f0004" n='4'/>
+					<lb/>satte sig i bevægelse fra tempelet. Vi fik
+					<lb/>kun se det første af det vakre tog der
+					<lb/>førte <persName ref="https://www.wikidata.org/wiki/Q353547">Baagd-Han</persName> (Keiser-Guden) tilbage
+					<lb/>til residensen, og vi saa <subst><del rendition="#s">knapt</del><add place="superlinear">kun</add></subst> e<subst><del rendition="#ow">t</del><add place="across">n</add></subst> liden
+					<lb/>lysning af den gule vogn gjennem den
+					<lb/>tætte støvsky der satte sig i bevægelse;
+					<lb/>hele eftertaaget var af støv skjult for
+					<lb/>vaare blikke, og støvskyer bredte sig med
+					<lb/>truende hast udover folkestimmelen,
+					<lb/>saa vi i al hast maatte <subst><del rendition="#s">gal</del><add place="across">k</add></subst>aste
+					<lb/>os paa vore heste og galopere afveien
+					<lb/>mens vi kunde se. Mørket faldt
+					<lb/>paa og vi havde ikke smagt mad
+					<lb/>siden tidlig om morgenen og hestene var
+					<lb/>ogsaa glade, da<del rendition="#s">r</del> vi vendte kursen hjemover,
+					<lb/>og disse faktorer gjorde at vi red hjem
+					<lb/>i den mest rasende gallop som kunde
+					<lb/>presteres<del rendition="#s">.</del>, og dermed endte den begiven-
+					<lb/>hedsrike kroningsdag, som kun faa
+					<lb/>auropæere kan sige, at have været
+					<lb/>vidne til. Det var i sandhed en høitid,
+					<lb/>en høitid, som knapt vil blive undt
+					<lb/><placeName>Mongolia</placeName> mere.
+					<lb/><persName full="abb"><choice><orig>O. M.</orig><reg>Oscar Mamen</reg></choice></persName></p>
+			</div>
+		</body>
+	</text>
+</TEI>
