@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Atter Et År i Østen</title>
+				<author>
+					<persName>
+						<forename>Oscar</forename>
+						<forename>Bernt</forename>
+						<forename>Malling</forename>
+						<surname>Mamen</surname>
+					</persName>
+				</author>
+				<respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+					<orgName>Universitetet i Oslo Bibliotek</orgName>
+					<resp>
+						<note type="remarkResponsibility">Digitalisering.</note>
+						<ref target="https://www.ub.uio.no"/>
+						<date type="creation">2026-04-20T18:49:46Z</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<persName>
+						<forename>Annika</forename>
+						<surname>Rockenberger</surname>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Tekstkoding og tekstetablering.</note>
+						<date type="creation">2026-04-20T18:49:46Z</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<persName>
+						<forename>Øystein</forename>
+						<forename>Johan</forename>
+						<surname>Kleiven</surname>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Historisk og geopolitisk kommentar.</note>
+						<date type="creation">2026-04-20T18:49:46Z</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<persName>
+						<forename>Maria</forename>
+						<surname>Kartveit</surname>
+					</persName>
+					<resp>
+						<note type="remarkResponsibility">Biografisk kommentar</note>
+						<date type="creation">2026-04-20T18:49:46Z</date><!-- change to correct date at publication -->
+					</resp>
+				</respStmt>
+				<respStmt>
+					<orgName>Transkribus, Read Coop</orgName>
+					<resp>
+						<note type="remarkResponsibility">Automatisk tekstgjenkjenning</note>
+						<note type="remarkDocument">Tekst gjenkjent med HTR-modellen mamen_typescript_v5. Femte iterasjon trent på Mamens manuskript, sist trent den <date when="2025-01-21">21. januar 2025</date> på 48 sider med 18.120 ord og en CER 0.99%. Manuelt kvalitetssjekket og korrigert av <persName><forename>Annika</forename><surname>Rockenberger</surname></persName>.</note>
+					</resp>
+				</respStmt>
+				<respStmt>
+					<orgName>Kulturhistorisk Museum, Arkivet</orgName>
+					<resp>
+						<note type="remarkResponsibility">Eierinstitusjon</note>
+						<ref target="https://www.khm.uio.no"/>
+					</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt><edition>Kritisk utgave</edition></editionStmt>
+			<extent>
+				<measure type="images">212</measure>
+				<measure type="tokens"/>
+				<measure type="types"/>
+				<measure type="characters"/>
+			</extent>
+			<publicationStmt>
+				<publisher xml:id="bokselskap">
+					<email>kontakt@bokselskap.no</email>
+					<orgName role="project">Bokselskap ved Det Norske Språk- og Litteraturselskap (NSL)</orgName>
+					<orgName role="hostingInstitution" xml:lang="en">The National Library of Norway (NB)</orgName>
+					<orgName role="hostingInstitution" xml:lang="no">Nasjonalbiblioteket (NB)</orgName>
+					<address>
+						<addrLine>Postboks 2674 Solli, 0203 Oslo</addrLine>
+						<country>Norge</country>
+					</address>
+				</publisher>
+				<pubPlace>Oslo</pubPlace>
+				<date type="publication">2026-04-20</date> <!-- change to correct date at publication -->
+				<availability xml:id="availability-textsource-1" corresp="#textsource-1">
+					<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+						<p>Verk erklært i det fri.</p>
+					</licence>
+				</availability>
+				<availability xml:id="availability-imagesource-1" corresp="#imagesource-1"><!-- change or remove -->
+					<licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+						<p>Verk erklært i det fri.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="M">Atter Et År i Østen</bibl>
+				<biblFull>
+					<titleStmt>
+						<title level="m" type="main">Atter Et År i Østen</title>
+						<author>
+							<persName>
+								<surname>Mamen</surname>
+								<forename>Oscar</forename>
+								<forename>Bernt</forename>
+								<forename>Malling</forename>
+							</persName>
+						</author>
+					</titleStmt>
+					<editionStmt>
+						<edition n="1"/>
+					</editionStmt>
+					<publicationStmt>
+						<publisher/>
+						<pubPlace xml:id="Q58650">Kalgan/Zhangjiakou</pubPlace>
+						<date type="publication" when="1938-10-13">13. oktober 1938</date>
+					</publicationStmt>
+				</biblFull>
+				<msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1"><!-- change or remove -->
+					<msIdentifier>
+						<repository>Universitetet i Oslo, Kulturhistorisk Museum, Arkivet</repository>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>Automatisk tekstgjenkjenning, manuelt korrigert og tekstkritisk utarbeidet ved Annika Rockenberger.</p>
+				<p>Her kommer hele den editoriske redegjørelsen.</p><!-- add when done; possibly use more structural tags -->
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage><language ident="no">Norsk riksmål</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+				<pb facs='#f0001' n='1'/>
+				<fw type="sig" place="top">O. Mamen.</fw><lb/>
+			<div n="1">
+				<head><hi rendition='#uu'>Diary in the Far East 1937</hi></head><lb/>
+				<div n="2">
+					<head><hi rendition='#u'>Impressions on my return and <choice><sic>a</sic><corr resp="AR"></corr></choice> general <subst><del rendition="#ow">observation</del><add place="across" hand="pencil">Condition</add></subst>s.</hi><lb/></head>
+				   <p>
+					On my return to <placeName>China</placeName> in <date when="1937-03">May 1937</date>,<lb/>
+						after having been absent <del rendition="#s">for near</del> since <date when="1932-09">September<lb/>
+							1932</date>, there were a good many changes to be found.<lb/>
+				   	It was <choice><sic>regretable</sic><corr></corr></choice> that I did not get time to stop<lb/>
+					off in <placeName>Manchuria</placeName> and have a look at old places<lb/>
+						for I am sure I would have found many things<lb/>
+					different from what I <subst><del rendition="#ow">remem</del><add place="across">know</add></subst> it. Only the<lb/>
+						railwaystations with their cleanlines and<lb/>
+						strict order was atleast an improvement<lb/>
+						to the better.
+				   </p>
+				   <p>
+						<date when='1937-05-15'><hi rendition="#u">May 15th</hi></date> Arriving in <placeName xml:id='Q11736'>Tientsin</placeName><lb/>
+				   	I found <choice><sic>That</sic><corr resp="AR">that</corr></choice> city changed a lot. Not only are the<lb/>
+						concessions, the British in particular, growing out<lb/>
+						over the filled up swamps and becoming more<lb/>
+						modern in the outskirts, but street regulations<lb/>
+						and new, modern buildings have to a great<lb/>
+				   	extent change<subst><del rendition="#ow">d</del><add place="across">t</add></subst> the face of the old town, which<lb/>
+						is more roomy &amp; modern. I was too busy with<lb/>
+						my friends the couple of days I spent there to<lb/>
+						take any detailed inventory of the changes.<lb/>
+						Arriving in old <placeName xml:id='Q956'>Peking</placeName> on <date when='1937-05-18'><subst><del rendition="#ow">the</del><add place="across">M</add></subst>ay 18th</date><lb/>
+						I found that city practically unchanged. All the<lb/>
+						main streets had been asphalted, which was a<lb/>
+						great improvement indeed, but otherwise old<lb/>
+						Peking is the same as ever, and I am glad of this.<lb/>
+				   	<note place="mTop"><hi rendition='#u'>NB See Cash p. 13.</hi></note><lb/></p>
+				</div>		
+			</div>		
+		</body>
+	</text>
+</TEI>
